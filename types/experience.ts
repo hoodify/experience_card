@@ -18,6 +18,8 @@ export interface Experience {
 
   updatedAt?: string;
 
+  collectionIds?: string[];
+
   visibility: "public" | "private";
 
   status: "draft" | "published";

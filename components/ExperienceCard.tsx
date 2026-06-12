@@ -1,3 +1,7 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 import TagChip from "@/components/TagChip";
 import { Experience } from "@/types/experience";
 
@@ -5,7 +9,11 @@ interface Props {
   experience: Experience;
 }
 
-export default function ExperienceCard({ experience }: Props) {
+export default function ExperienceCard({
+  experience,
+}: Props) {
+  const router = useRouter();
+
   const thumbnail = experience.media.find(
     (item) => item.type === "image"
   );
@@ -17,14 +25,22 @@ export default function ExperienceCard({ experience }: Props) {
 
   const date = new Date(experience.createdAt);
 
-  const displayDate = date.toLocaleDateString("ko-KR", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  });
+  const displayDate = date.toLocaleDateString(
+    "ko-KR",
+    {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }
+  );
 
   return (
     <div
+      onClick={() =>
+        router.push(
+          `/experience/${experience.id}`
+        )
+      }
       className="
         border
         border-black
@@ -32,6 +48,14 @@ export default function ExperienceCard({ experience }: Props) {
         p-4
         mb-4
         bg-white
+
+        cursor-pointer
+
+        transition-all
+        duration-200
+
+        hover:-translate-y-1
+        hover:shadow-lg
       "
     >
       <div className="flex justify-between items-start">
@@ -45,36 +69,42 @@ export default function ExperienceCard({ experience }: Props) {
           </p>
         </div>
       </div>
-        {thumbnail ? (
+
+      {thumbnail ? (
         <img
-            src={thumbnail.url}
-            alt={thumbnail.caption ?? experience.title}
-            className="
+          src={thumbnail.url}
+          alt={
+            thumbnail.caption ??
+            experience.title
+          }
+          className="
             w-full
             h-52
             object-cover
             rounded-md
             mt-4
-            "
+          "
         />
-        ) : (
+      ) : (
         <div
-            className="
+          className="
             h-52
             mt-4
             rounded-md
+
             border
             border-gray-300
+
             flex
             items-center
             justify-center
-            text-gray-400
-            "
-        >
-            No Image
-        </div>
-        )}
 
+            text-gray-400
+          "
+        >
+          🖼️ Media 없음
+        </div>
+      )}
 
       <p className="mt-4 text-gray-800">
         {preview}
@@ -82,9 +112,13 @@ export default function ExperienceCard({ experience }: Props) {
 
       <div className="flex gap-2 mt-4 flex-wrap">
         {experience.tags.map((tag) => (
-          <TagChip key={tag} tag={tag} />
+          <TagChip
+            key={tag}
+            tag={tag}
+          />
         ))}
       </div>
+
     </div>
   );
 }
