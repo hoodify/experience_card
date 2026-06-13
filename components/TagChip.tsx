@@ -1,31 +1,42 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 interface Props {
   tag: string;
 }
 
-export default function TagChip({ tag }: Props) {
+export default function TagChip({
+  tag,
+}: Props) {
+  const router = useRouter();
+
   return (
     <button
-        className="
-            block
-            m-1
-            bg-white
-            px-3
-            py-1
-            rounded
-            border
-            border-black
-            text-[15px]
-            tracking-[1.5px]
-            text-black
-            shadow-[1px_1px_0px_1px_rgba(0,0,0,0.7)]
-            transition-all
-            duration-200
-            hover:-translate-y-1
-            hover:shadow-[3px_3px_0px_1px_rgba(0,0,0,0.7)]
-            active:translate-y-0
-        "
-        >
-        {tag}
-        </button>
+      onClick={(e) => {
+        e.stopPropagation();
+        router.push(
+          `/tag/${encodeURIComponent(tag)}`
+        );
+      }}
+      className="
+        cursor-pointer
+        m-1
+        px-3
+        py-1.5
+        rounded
+        bg-white
+        border
+        border-black
+        text-black
+        text-sm
+        shadow-[1px_1px_0px_1px_rgba(0,0,0,0.7)]
+        transition-all
+        duration-200
+        hover:-translate-y-1
+      "
+    >
+      #{tag}
+    </button>
   );
 }

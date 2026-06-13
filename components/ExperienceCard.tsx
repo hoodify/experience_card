@@ -54,8 +54,6 @@ export default function ExperienceCard({
         transition-all
         duration-200
 
-        hover:-translate-y-1
-        hover:shadow-lg
       "
     >
       <div className="flex justify-between items-start">

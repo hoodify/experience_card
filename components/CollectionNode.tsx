@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ChevronRight, ChevronDown } from "lucide-react";
 
 import { Collection } from "@/types/collection";
 import { Experience } from "@/types/experience";
@@ -18,7 +19,7 @@ export default function CollectionNode({
   collections,
   experiences,
 }: Props) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const childCollections = collections.filter(
     (item) => item.parentId === collection.id
@@ -28,33 +29,66 @@ export default function CollectionNode({
     exp.collectionIds?.includes(collection.id)
   );
 
+  const totalCount =
+    childCollections.length + collectionExperiences.length;
+
   return (
     <div className="mb-2">
+      {/* HEADER */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="
           flex
           items-center
           gap-2
+          w-full
           font-semibold
           text-lg
           hover:underline
+          cursor-pointer
         "
       >
-        <span>{isOpen ? "⯆" : "➤"}</span>
+        {/* TOGGLE ICON (fixed width → layout 안정화 핵심) */}
+        <span
+          className="
+            w-5
+            h-5
+            flex
+            items-center
+            justify-center
+            shrink-0
+          "
+        >
+          {isOpen ? (
+            <ChevronDown size={16} />
+          ) : (
+            <ChevronRight size={16} />
+          )}
+        </span>
 
-        <span>{collection.name}</span>
+        {/* COLLECTION NAME */}
+        <span className="truncate">
+          {collection.name}
+        </span>
 
-        <span className="text-sm text-gray-500">
-          (
-          {childCollections.length +
-            collectionExperiences.length}
-          )
+        {/* COUNT (fixed width → 흔들림 방지) */}
+        <span
+          className="
+            text-sm
+            text-gray-500
+            w-10
+            text-left
+            shrink-0
+          "
+        >
+          ({totalCount})
         </span>
       </button>
 
+      {/* CHILDREN */}
       {isOpen && (
         <div className="ml-6 mt-3">
+          {/* child collections */}
           {childCollections.map((child) => (
             <CollectionNode
               key={child.id}
@@ -64,6 +98,7 @@ export default function CollectionNode({
             />
           ))}
 
+          {/* experiences */}
           <div className="mt-2">
             {collectionExperiences.map((exp) => (
               <ExperienceCard

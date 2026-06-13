@@ -32,4 +32,19 @@ export const collections = [
     parentId: "movie",
     createdAt: "2026-01-01",
   },
+  {
+    id: "movie-overseas",
+    name: "해외",
+    ownerId: "u1",
+    parentId: "movie",
+    createdAt: "2026-01-01",
+  },
+
+  {
+    id: "movie-theater",
+    name: "영화관",
+    ownerId: "u1",
+    parentId: "movie",
+    createdAt: "2026-01-01",
+  }
 ];
