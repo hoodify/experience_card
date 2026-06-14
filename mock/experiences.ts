@@ -892,7 +892,172 @@ Crazy Frog, 싸이 '챔피언'에 샘플링.
   visibility: "public",
   status: "published",
   source: "manual",
-}
+},
+{
+  id: "reading-record-1",
+  title: "책은 작가의 살이다",
+  content: `미국의 일본인 이민자,
+노동자 계층의 자식.
+
+미국사 교수가 되어 낸 책. 『역사에 없는 사람들의 미국사』.
+
+작가는 어떻게 그 책을 내게 되었는가.
+
+작가는 어떻게 그 책을 낼 수밖에 없었는가.
+
+책은 작가의 살이고 그 체취다.
+
+그 사람이 먹고 마시며 살아온 삶이 담겨 있다.
+
+책이란 작가다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서가의기록",
+    "책",
+    "작가",
+    "역사에없는사람들의미국사",
+    "미국사",
+    "독서사유",
+    "책은작가다",
+  ],
+  media: [],
+  createdAt: "2025-09-09T13:32:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-records"],
+},
+
+{
+  id: "reading-record-2",
+  title: "책은 문이다",
+  content: `도서관의 모든 책들을 생각함.
+
+책은 문이다.
+각각 무엇으로 이어지는 문일까?
+
+각각의 문이 이어주는 시선,
+지식에 대해 생각해봄.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서가의기록",
+    "책",
+    "도서관",
+    "책은문이다",
+    "지식",
+    "시선",
+    "사유",
+  ],
+  media: [],
+  createdAt: "2026-02-19T13:07:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-records"],
+},
+
+{
+  id: "reading-record-3",
+  title: "시간 감각과 책 엮어놓기",
+  content: `특정 시기를 생각할 때,
+그때 읽은 책을 떠올릴 수 있어야 한다.
+
+그러기 위해서는 책을 읽는 기간 중에
+그때의 사건, 계절 등을 연결해놓아야 한다.
+
+ex)
+극심한 폭염이 잠시 주춤해진 8월,
+『방랑자 선언』을 통해 사막을 걷다.
+
+=> 한 두 문장 정도로 책과 시기를 엮는 말을 써 기록할 것.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서가의기록",
+    "독서기록",
+    "시간감각",
+    "기억",
+    "방랑자선언",
+    "계절",
+    "독서메모",
+  ],
+  media: [],
+  createdAt: "2025-08-11T13:33:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-records"],
+},
+
+{
+  id: "reading-record-4",
+  title: "20세기 문학 기조",
+  content: `# 20세기 세계 이슈
+1차 세계대전 (1914~1918)
+경제대공황 (1929)
+2차 세계대전 (1939~1945)
+냉전 (1947~1991)
+탈식민주의 (1940~60)
+
+20세기 문학은 니힐리즘을 단순히 절망이 아닌,
+문학적 사유와 표현의 출발점으로 삼았습니다.
+
+이들은 무의미를 정면으로 응시하거나,
+이를 넘어서려 하거나,
+때로는 그것조차 놀이로 바꾸며
+예술적 저항을 시도한 것입니다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서가의기록",
+    "문학",
+    "20세기문학",
+    "니힐리즘",
+    "세계사",
+    "전쟁",
+    "탈식민주의",
+    "문학사",
+  ],
+  media: [],
+  createdAt: "2025-07-24T16:10:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-records"],
+},
+
+{
+  id: "reading-record-5",
+  title: "읽을 책에 대한 기대",
+  content: `읽을 책에 대한 기대.
+일상의 소소한 기대로부터 챙기는 행복.
+
+- 사람에 대한 호기심
+- 안목에 대한 기대, 포부, 호기심
+
+? 내게 필요한 책은?
+? 궁금한 인물은?`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서가의기록",
+    "읽을책",
+    "기대",
+    "호기심",
+    "안목",
+    "인물",
+    "독서계획",
+    "독서질문",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-records"],
+},
 
 
 ];

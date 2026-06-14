@@ -87,6 +87,7 @@ export default function HomePage() {
                 border-black
                 rounded-md
                 transition-all
+                cursor-pointer
                 ${
                   viewMode === "wide"
                     ? "bg-black text-white"
@@ -107,6 +108,7 @@ export default function HomePage() {
                 border-black
                 rounded-md
                 transition-all
+                cursor-pointer
                 ${
                   viewMode === "card"
                     ? "bg-black text-white"

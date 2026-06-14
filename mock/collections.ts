@@ -46,5 +46,21 @@ export const collections = [
     ownerId: "u1",
     parentId: "movie",
     createdAt: "2026-01-01",
-  }
+  },
+
+  {
+    id: "reader",
+    name: "독서가",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
+
+  {
+    id: "reading-records",
+    name: "독서가의 기록",
+    ownerId: "u1",
+    parentId: "reader",
+    createdAt: "2026-01-01",
+  },
 ];

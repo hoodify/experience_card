@@ -91,35 +91,48 @@ export default function CollectionNode({
       </button>
 
       {/* CHILDREN */}
-      {isOpen && (
-        <div className="ml-6 mt-3">
-          {/* child collections */}
-          {childCollections.map((child) => (
-            <CollectionNode
-              key={child.id}
-              collection={child}
-              collections={collections}
-              experiences={experiences}
+      <div
+        className={`
+          ml-6
+          overflow-hidden
+          transition-all
+          duration-500
+          ease-in-out
+          ${
+            isOpen
+              ? "max-h-[5000px] opacity-100 mt-3"
+              : "max-h-0 opacity-0 mt-0"
+          }
+        `}
+      >
+        {/* child collections */}
+        {childCollections.map((child) => (
+          <CollectionNode
+            key={child.id}
+            collection={child}
+            collections={collections}
+            experiences={experiences}
+            viewMode={viewMode}
+          />
+        ))}
+
+        {/* experiences */}
+        <div
+          className={
+            viewMode === "card"
+              ? "mt-2 flex flex-wrap gap-4"
+              : "mt-2"
+          }
+        >
+          {collectionExperiences.map((exp) => (
+            <ExperienceCard
+              key={exp.id}
+              experience={exp}
               viewMode={viewMode}
             />
           ))}
-
-          {/* experiences */}
-          <div className={
-              viewMode === "card"
-                ? "mt-2 flex flex-wrap gap-4"
-                : "mt-2"
-            }>
-            {collectionExperiences.map((exp) => (
-              <ExperienceCard
-                key={exp.id}
-                experience={exp}
-                viewMode={viewMode}
-              />
-            ))}
-          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
