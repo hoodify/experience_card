@@ -3,16 +3,21 @@ import TagChip from "@/components/TagChip";
 import ExperienceCard from "@/components/ExperienceCard";
 import Link from "next/link";
 
+import { ViewMode } from "@/types/view";
+
 
 
 interface Props {
   params: Promise<{
     id: string;
   }>;
+  
+  viewMode: ViewMode;
 }
 
 export default async function TagPage({
   params,
+  viewMode,
 }: Props) {
   const { id } = await params;
 
@@ -87,6 +92,7 @@ export default async function TagPage({
         <ExperienceCard
           key={exp.id}
           experience={exp}
+          viewMode={viewMode}
         />
       ))}
     </div>

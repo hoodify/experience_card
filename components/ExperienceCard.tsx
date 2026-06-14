@@ -4,14 +4,19 @@ import { useRouter } from "next/navigation";
 
 import TagChip from "@/components/TagChip";
 import { Experience } from "@/types/experience";
+import { ViewMode } from "@/types/view";
 
 interface Props {
   experience: Experience;
+  viewMode: ViewMode;
 }
 
 export default function ExperienceCard({
   experience,
+  viewMode,
 }: Props) {
+ 
+ 
   const router = useRouter();
 
   const thumbnail = experience.media.find(
@@ -33,6 +38,94 @@ export default function ExperienceCard({
       day: "2-digit",
     }
   );
+
+  if (viewMode === "card") {
+  return (
+    <div
+      onClick={() =>
+        router.push(
+          `/experience/${experience.id}`
+        )
+      }
+      className="
+        w-64
+        border
+        border-black
+        rounded-lg
+        bg-white
+        overflow-hidden
+        cursor-pointer
+
+        transition-all
+        duration-200
+
+        hover:-translate-y-1
+        hover:shadow-lg
+      "
+    >
+      {thumbnail ? (
+        <img
+          src={thumbnail.url}
+          alt={
+            thumbnail.caption ??
+            experience.title
+          }
+          className="
+            w-full
+            h-40
+            object-cover
+          "
+        />
+      ) : (
+        <div
+          className="
+            w-full
+            h-40
+            border-b
+            flex
+            items-center
+            justify-center
+            text-gray-400
+          "
+        >
+          🖼️ Media 없음
+        </div>
+      )}
+
+      <div className="p-3">
+        <h2
+          className="
+            font-bold
+            text-lg
+            line-clamp-2
+          "
+        >
+          {experience.title}
+        </h2>
+
+        <div
+          className="
+            flex
+            flex-wrap
+            gap-1
+            mt-3
+          "
+        >
+          {experience.tags
+            .slice(0, 3)
+            .map((tag) => (
+              <TagChip
+                key={tag}
+                tag={tag}
+              />
+            ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
 
   return (
     <div

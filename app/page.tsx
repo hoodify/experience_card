@@ -1,14 +1,23 @@
-import CollectionTree from "@/components/CollectionTree";
+"use client";
 
+import { useState } from "react";
+
+import CollectionTree from "@/components/CollectionTree";
+import type { ViewMode } from "@/types/view";
 import { collections } from "@/mock/collections";
 import { experiences } from "@/mock/experiences";
 
 import {
   Waypoints,
   FolderTree,
+  Rows3,
+  LayoutGrid,
 } from "lucide-react";
 
 export default function HomePage() {
+  const [viewMode, setViewMode] =
+    useState<ViewMode>("wide");
+
   return (
     <main className="max-w-4xl mx-auto w-full p-6">
       {/* Header */}
@@ -44,24 +53,76 @@ export default function HomePage() {
 
       {/* Collection */}
       <section>
+
         <div
           className="
             flex
             items-center
-            gap-2
+            justify-between
             mb-4
           "
         >
-          <FolderTree size={20} />
+          <div
+            className="
+              flex
+              items-center
+              gap-2
+            "
+          >
+            <FolderTree size={20} />
 
-          <h2 className="text-xl font-bold">
-            Collections
-          </h2>
+            <h2 className="text-xl font-bold">
+              Collections
+            </h2>
+          </div>
+
+          <div className="flex gap-2">
+            <button
+              onClick={() =>
+                setViewMode("wide")
+              }
+              className={`
+                p-2
+                border
+                border-black
+                rounded-md
+                transition-all
+                ${
+                  viewMode === "wide"
+                    ? "bg-black text-white"
+                    : "bg-white"
+                }
+              `}
+            >
+              <Rows3 size={18} />
+            </button>
+
+            <button
+              onClick={() =>
+                setViewMode("card")
+              }
+              className={`
+                p-2
+                border
+                border-black
+                rounded-md
+                transition-all
+                ${
+                  viewMode === "card"
+                    ? "bg-black text-white"
+                    : "bg-white"
+                }
+              `}
+            >
+              <LayoutGrid size={18} />
+            </button>
+          </div>
         </div>
 
         <CollectionTree
           collections={collections}
           experiences={experiences}
+          viewMode={viewMode}
         />
       </section>
     </main>

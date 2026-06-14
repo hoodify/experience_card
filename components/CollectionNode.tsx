@@ -7,18 +7,23 @@ import { Collection } from "@/types/collection";
 import { Experience } from "@/types/experience";
 
 import ExperienceCard from "./ExperienceCard";
+import { ViewMode } from "@/types/view";
 
 interface Props {
   collection: Collection;
   collections: Collection[];
   experiences: Experience[];
+  viewMode: ViewMode;
 }
 
 export default function CollectionNode({
   collection,
   collections,
-  experiences,
+  experiences,  
+  viewMode,
 }: Props) {
+
+
   const [isOpen, setIsOpen] = useState(false);
 
   const childCollections = collections.filter(
@@ -95,15 +100,21 @@ export default function CollectionNode({
               collection={child}
               collections={collections}
               experiences={experiences}
+              viewMode={viewMode}
             />
           ))}
 
           {/* experiences */}
-          <div className="mt-2">
+          <div className={
+              viewMode === "card"
+                ? "mt-2 flex flex-wrap gap-4"
+                : "mt-2"
+            }>
             {collectionExperiences.map((exp) => (
               <ExperienceCard
                 key={exp.id}
                 experience={exp}
+                viewMode={viewMode}
               />
             ))}
           </div>
