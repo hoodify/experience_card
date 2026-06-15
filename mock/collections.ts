@@ -63,4 +63,14 @@ export const collections = [
     parentId: "reader",
     createdAt: "2026-01-01",
   },
+
+  {
+    id: "reading-log",
+    name: "독서 로그",
+    ownerId: "u1",
+    parentId: "reader",
+    createdAt: "2026-01-01",
+  },
+  
+  
 ];

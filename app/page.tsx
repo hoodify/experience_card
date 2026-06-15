@@ -16,7 +16,7 @@ import {
 
 export default function HomePage() {
   const [viewMode, setViewMode] =
-    useState<ViewMode>("wide");
+    useState<ViewMode>("card");
 
   return (
     <main className="max-w-4xl mx-auto w-full p-6">
