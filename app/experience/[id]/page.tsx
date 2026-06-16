@@ -1,6 +1,10 @@
 import TagChip from "@/components/TagChip";
 import { experiences } from "@/mock/experiences";
 import Link from "next/link";
+import { collections } from "@/mock/collections";
+import { getCollectionPath } from "@/utils/getCollectionPath";
+import { ChevronRight } from "lucide-react";
+import ExperienceCard from "@/components/ExperienceCard";
 
 interface Props {
   params: Promise<{
@@ -8,13 +12,15 @@ interface Props {
   }>;
 }
 
-export default async function ExperiencePage({
-  params,
-}: Props) {
+  export default async function ExperiencePage({
+    params,
+  }: Props) {
+    
   const { id } = await params;
 
   const experience = experiences.find(
     (exp) => exp.id === id
+    
   );
 
   if (!experience) {
@@ -24,6 +30,26 @@ export default async function ExperiencePage({
       </main>
     );
   }
+
+  const collectionPath =
+  experience.collectionIds.length > 0
+    ? getCollectionPath(
+        experience.collectionIds[0],
+        collections
+      )
+    : [];
+  
+
+  const relatedExperiences =
+  experiences
+    .filter(
+      (exp) =>
+        exp.id !== experience.id &&
+        exp.tags.some((tag) =>
+          experience.tags.includes(tag)
+        )
+    )
+    .slice(0, 6);
 
   const date = new Date(
     experience.createdAt
@@ -60,6 +86,43 @@ export default async function ExperiencePage({
         ← Home
     </Link>
 
+    <div
+      className="
+        flex
+        items-center
+        gap-2
+        flex-wrap
+        text-sm
+        text-gray-500
+        mb-6
+      "
+    >
+      {collectionPath.map(
+        (collection) => (
+          <div
+            key={collection.id}
+            className="
+              flex
+              items-center
+              gap-2
+            "
+          >
+            <span>
+              {collection.name}
+            </span>
+
+            <ChevronRight
+              size={14}
+            />
+          </div>
+        )
+      )}
+
+      <span>
+        {experience.title}
+      </span>
+    </div>
+
 
       <h1 className="text-4xl font-bold">
         {experience.title}
@@ -79,6 +142,8 @@ export default async function ExperiencePage({
         ))}
       </div>
 
+      <hr className="my-8 border-gray-300" />
+
       {/* 본문 */}
       <div
         className="
@@ -90,6 +155,22 @@ export default async function ExperiencePage({
       >
         {experience.content}
       </div>
+
+      <div className="mt-12">
+      <h2 className="text-2xl font-bold mb-4">
+        Related Experiences
+      </h2>
+
+      <div className="space-y-4">
+        {relatedExperiences.map((exp) => (
+          <ExperienceCard
+            key={exp.id}
+            experience={exp}
+            viewMode="compact"
+          />
+        ))}
+      </div>
+    </div>
     </main>
   );
 }

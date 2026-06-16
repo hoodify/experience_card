@@ -18,7 +18,7 @@ export interface Experience {
 
   updatedAt?: string;
 
-  collectionIds?: string[];
+  collectionIds: string[];
 
   visibility: "public" | "private";
 

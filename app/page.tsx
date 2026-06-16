@@ -12,6 +12,7 @@ import {
   FolderTree,
   Rows3,
   LayoutGrid,
+  List
 } from "lucide-react";
 
 export default function HomePage() {
@@ -77,6 +78,29 @@ export default function HomePage() {
           </div>
 
           <div className="flex gap-2">
+
+            
+            <button
+              onClick={() =>
+                setViewMode("card")
+              }
+              className={`
+                p-2
+                border
+                border-black
+                rounded-md
+                transition-all
+                cursor-pointer
+                ${
+                  viewMode === "card"
+                    ? "bg-black text-white"
+                    : "bg-white"
+                }
+              `}
+            >
+              <LayoutGrid size={18} />
+            </button>
+
             <button
               onClick={() =>
                 setViewMode("wide")
@@ -98,9 +122,11 @@ export default function HomePage() {
               <Rows3 size={18} />
             </button>
 
+
+            
             <button
               onClick={() =>
-                setViewMode("card")
+                setViewMode("compact")
               }
               className={`
                 p-2
@@ -110,13 +136,13 @@ export default function HomePage() {
                 transition-all
                 cursor-pointer
                 ${
-                  viewMode === "card"
+                  viewMode === "compact"
                     ? "bg-black text-white"
                     : "bg-white"
                 }
               `}
             >
-              <LayoutGrid size={18} />
+              <List size={18} />
             </button>
           </div>
         </div>

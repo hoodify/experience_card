@@ -124,7 +124,49 @@ export default function ExperienceCard({
     </div>
   );
 }
+if (viewMode === "compact") {
+  return (
+    <div
+      onClick={() =>
+        router.push(
+          `/experience/${experience.id}`
+        )
+      }
+      className="
+        py-3
+        border-b
+        border-gray-200
+        cursor-pointer
+        hover:bg-gray-50
+        transition
+      "
+    >
+      <h2
+        className="
+          font-semibold
+          text-lg
+        "
+      >
+        • {experience.title}
+      </h2>
 
+      <p
+        className="
+          mt-1
+          text-sm
+          text-gray-500
+        "
+      >
+        {experience.tags
+          .slice(0, 4)
+          .map(
+            (tag) => `#${tag}`
+          )
+          .join(" · ")}
+      </p>
+    </div>
+  );
+}
 
 
   return (

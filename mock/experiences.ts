@@ -25,6 +25,8 @@ export const experiences: Experience[] = [
 
     media: [
     ],
+    collectionIds: [
+    ],
 
     createdAt: "2026-06-10T18:35:00+09:00",
 
@@ -52,6 +54,8 @@ export const experiences: Experience[] = [
       "건축물",
       "관광명소"
     ],
+  collectionIds: [
+  ],
 
     media: [
     ],

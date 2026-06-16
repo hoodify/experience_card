@@ -1,3 +1,4 @@
 export type ViewMode =
   | "wide"
-  | "card";
+  | "card"
+  | "compact";
