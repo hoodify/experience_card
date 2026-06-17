@@ -133,7 +133,7 @@ if (viewMode === "compact") {
         )
       }
       className="
-        py-3
+        py-2
         border-b
         border-gray-200
         cursor-pointer
@@ -144,7 +144,7 @@ if (viewMode === "compact") {
       <h2
         className="
           font-semibold
-          text-lg
+          text-sm
         "
       >
         • {experience.title}

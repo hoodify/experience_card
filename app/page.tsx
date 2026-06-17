@@ -12,7 +12,8 @@ import {
   FolderTree,
   Rows3,
   LayoutGrid,
-  List
+  List,
+  Newspaper
 } from "lucide-react";
 
 export default function HomePage() {
@@ -119,7 +120,7 @@ export default function HomePage() {
                 }
               `}
             >
-              <Rows3 size={18} />
+              <Newspaper size={18} />
             </button>
 
 

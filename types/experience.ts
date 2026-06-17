@@ -25,4 +25,5 @@ export interface Experience {
   status: "draft" | "published";
 
   source: "manual" | "ai" | "import";
+  
 }

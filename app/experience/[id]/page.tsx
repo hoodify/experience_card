@@ -5,6 +5,7 @@ import { collections } from "@/mock/collections";
 import { getCollectionPath } from "@/utils/getCollectionPath";
 import { ChevronRight } from "lucide-react";
 import ExperienceCard from "@/components/ExperienceCard";
+import RelatedExperiences from "@/components/RelatedExperiences";
 
 interface Props {
   params: Promise<{
@@ -156,21 +157,10 @@ interface Props {
         {experience.content}
       </div>
 
-      <div className="mt-12">
-      <h2 className="text-2xl font-bold mb-4">
-        Related Experiences
-      </h2>
+      <RelatedExperiences
+        experiences={relatedExperiences}
+      />
 
-      <div className="space-y-4">
-        {relatedExperiences.map((exp) => (
-          <ExperienceCard
-            key={exp.id}
-            experience={exp}
-            viewMode="compact"
-          />
-        ))}
-      </div>
-    </div>
     </main>
   );
 }
