@@ -4,7 +4,7 @@ import ExperienceCard from "@/components/ExperienceCard";
 import Link from "next/link";
 
 import { ViewMode } from "@/types/view";
-
+import { collections } from "@/mock/collections";
 
 
 interface Props {
@@ -93,6 +93,7 @@ export default async function TagPage({
           key={exp.id}
           experience={exp}
           viewMode={'card'}
+          collections={collections}
         />
       ))}
     </div>

@@ -10,4 +10,6 @@ export interface Collection {
   parentId?: string | null;
 
   createdAt: string;
+
+  image?: string;
 }

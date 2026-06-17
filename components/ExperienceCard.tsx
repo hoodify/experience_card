@@ -3,173 +3,175 @@
 import { useRouter } from "next/navigation";
 
 import TagChip from "@/components/TagChip";
+
 import { Experience } from "@/types/experience";
 import { ViewMode } from "@/types/view";
+import { Collection } from "@/types/collection";
+
+import { getExperienceThumbnail } from "@/utils/getExperienceThumbnail";
 
 interface Props {
   experience: Experience;
   viewMode: ViewMode;
+  collections: Collection[];
 }
 
 export default function ExperienceCard({
   experience,
   viewMode,
+  collections,
 }: Props) {
- 
- 
   const router = useRouter();
 
-  const thumbnail = experience.media.find(
-    (item) => item.type === "image"
-  );
+  const thumbnail =
+    getExperienceThumbnail(
+      experience,
+      collections
+    );
 
   const preview =
     experience.content.length > 120
-      ? experience.content.slice(0, 120) + "..."
+      ? experience.content.slice(0, 120) +
+        "..."
       : experience.content;
 
-  const date = new Date(experience.createdAt);
-
-  const displayDate = date.toLocaleDateString(
-    "ko-KR",
-    {
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    }
+  const date = new Date(
+    experience.createdAt
   );
 
-  if (viewMode === "card") {
-  return (
-    <div
-      onClick={() =>
-        router.push(
-          `/experience/${experience.id}`
-        )
+  const displayDate =
+    date.toLocaleDateString(
+      "ko-KR",
+      {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
       }
-      className="
-        w-64
-        border
-        border-black
-        rounded-lg
-        bg-white
-        overflow-hidden
-        cursor-pointer
+    );
 
-        transition-all
-        duration-200
+  // =====================
+  // CARD
+  // =====================
 
-        hover:-translate-y-1
-        hover:shadow-lg
-      "
-    >
-      {thumbnail ? (
+  if (viewMode === "card") {
+    return (
+      <div
+        onClick={() =>
+          router.push(
+            `/experience/${experience.id}`
+          )
+        }
+        className="
+          w-64
+          border
+          border-black
+          rounded-lg
+          bg-white
+          overflow-hidden
+          cursor-pointer
+
+          transition-all
+          duration-200
+
+          hover:-translate-y-1
+          hover:shadow-lg
+        "
+      >
         <img
-          src={thumbnail.url}
-          alt={
-            thumbnail.caption ??
-            experience.title
-          }
+          src={thumbnail}
+          alt={experience.title}
           className="
             w-full
             h-40
             object-cover
           "
         />
-      ) : (
-        <div
-          className="
-            w-full
-            h-40
-            border-b
-            flex
-            items-center
-            justify-center
-            text-gray-400
-          "
-        >
-          🖼️ Media 없음
-        </div>
-      )}
 
-      <div className="p-3">
+        <div className="p-3">
+          <h2
+            className="
+              font-bold
+              text-lg
+              line-clamp-2
+            "
+          >
+            {experience.title}
+          </h2>
+
+          <div
+            className="
+              flex
+              flex-wrap
+              gap-1
+              mt-3
+            "
+          >
+            {experience.tags
+              .slice(0, 3)
+              .map((tag) => (
+                <TagChip
+                  key={tag}
+                  tag={tag}
+                />
+              ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // =====================
+  // COMPACT
+  // =====================
+
+  if (viewMode === "compact") {
+    return (
+      <div
+        onClick={() =>
+          router.push(
+            `/experience/${experience.id}`
+          )
+        }
+        className="
+          pl-3
+          py-2
+          border-b
+          border-gray-200
+          cursor-pointer
+          hover:bg-gray-50
+          transition
+        "
+      >
         <h2
           className="
-            font-bold
-            text-lg
-            line-clamp-2
+            font-semibold
+            text-sm
           "
         >
-          {experience.title}
+          ▶ {experience.title}
         </h2>
 
-        <div
+        <p
           className="
-            flex
-            flex-wrap
-            gap-1
-            mt-3
+            mt-1
+            text-sm
+            text-gray-500
           "
         >
           {experience.tags
-            .slice(0, 3)
-            .map((tag) => (
-              <TagChip
-                key={tag}
-                tag={tag}
-              />
-            ))}
-        </div>
+            .slice(0, 4)
+            .map(
+              (tag) => `#${tag}`
+            )
+            .join(" · ")}
+        </p>
       </div>
-    </div>
-  );
-}
-if (viewMode === "compact") {
-  return (
-    <div
-      onClick={() =>
-        router.push(
-          `/experience/${experience.id}`
-        )
-      }
-      className="
+    );
+  }
 
-        pl-3
-        py-2
-        border-b
-        border-gray-200
-        cursor-pointer
-        hover:bg-gray-50
-        transition
-      "
-    >
-      <h2
-        className="
-          font-semibold
-          text-sm
-        "
-      >
-        • {experience.title}
-      </h2>
-
-      <p
-        className="
-          mt-1
-          text-sm
-          text-gray-500
-        "
-      >
-        {experience.tags
-          .slice(0, 4)
-          .map(
-            (tag) => `#${tag}`
-          )
-          .join(" · ")}
-      </p>
-    </div>
-  );
-}
-
+  // =====================
+  // WIDE (default)
+  // =====================
 
   return (
     <div
@@ -190,7 +192,6 @@ if (viewMode === "compact") {
 
         transition-all
         duration-200
-
       "
     >
       <div className="flex justify-between items-start">
@@ -199,61 +200,58 @@ if (viewMode === "compact") {
             {experience.title}
           </h2>
 
-          <p className="text-sm text-gray-500 mt-1">
-            {experience.author} · {displayDate}
+          <p
+            className="
+              text-sm
+              text-gray-500
+              mt-1
+            "
+          >
+            {experience.author}
+            {" · "}
+            {displayDate}
           </p>
         </div>
       </div>
 
-      {thumbnail ? (
-        <img
-          src={thumbnail.url}
-          alt={
-            thumbnail.caption ??
-            experience.title
-          }
-          className="
-            w-full
-            h-72
-            object-cover
-            rounded-md
-            mt-4
-          "
-        />
-      ) : (
-        <div
-          className="
-            h-72
-            mt-4
-            rounded-md
+      <img
+        src={thumbnail}
+        alt={experience.title}
+        className="
+          w-full
+          h-72
+          object-cover
+          rounded-md
+          mt-4
+        "
+      />
 
-            border
-            border-gray-300
-
-            flex
-            items-center
-            justify-center
-
-            text-gray-400
-          "
-        >
-          🖼️ Media 없음
-        </div>
-      )}
-
-      <p className="mt-4 text-gray-800">
+      <p
+        className="
+          mt-4
+          text-gray-800
+        "
+      >
         {preview}
       </p>
 
-      <div className="flex gap-2 mt-4 flex-wrap">
-        {experience.tags.map((tag) => (
-          <TagChip
-            key={tag}
-            tag={tag}
-          />
-        ))}
+      <div
+        className="
+          flex
+          gap-2
+          mt-4
+          flex-wrap
+        "
+      >
+        {experience.tags.map(
+          (tag) => (
+            <TagChip
+              key={tag}
+              tag={tag}
+            />
+          )
+        )}
       </div>
-
     </div>
   );
 }

@@ -8,6 +8,7 @@ import {
 
 import ExperienceCard from "./ExperienceCard";
 import { Experience } from "@/types/experience";
+import { collections } from "@/mock/collections";
 
 interface Props {
   experiences: Experience[];
@@ -60,6 +61,7 @@ export default function RelatedExperiences({
               key={exp.id}
               experience={exp}
               viewMode="compact"
+              collections={collections}
             />
           ))}
         </div>

@@ -1059,36 +1059,301 @@ ex)
   source: "manual",
   collectionIds: ["reading-records"],
 },
-
 {
-  id: "reading-record-5",
-  title: "읽을 책에 대한 기대",
-  content: `읽을 책에 대한 기대.
-일상의 소소한 기대로부터 챙기는 행복.
+  id: "season-record-1",
+  title: "겨울에 활동성을 잃지 않는 방법",
+  content: `방 안을 따뜻하게
+방 안을 밝게
 
-- 사람에 대한 호기심
-- 안목에 대한 기대, 포부, 호기심
-
-? 내게 필요한 책은?
-? 궁금한 인물은?`,
+어둡고 추운 1차원적인 요소가 활동성을 억제한다.`,
   author: "김정성",
   tags: [
-    "독서",
-    "독서가의기록",
-    "읽을책",
-    "기대",
-    "호기심",
-    "안목",
-    "인물",
-    "독서계획",
-    "독서질문",
+    "겨울",
+    "계절",
+    "활동성",
+    "생활",
+    "실내환경",
+    "조명",
+    "온도",
+    "생산성",
   ],
   media: [],
-  createdAt: "2025-07-19T18:57:00",
+  createdAt: "2025-12-28T19:47:00",
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["reading-records"],
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-2",
+  title: "해가 짧아지고 추워지며 생기는 생활의 변화",
+  content: `# 아침에 일어나기 힘들어짐
+- 추위, 해가 늦게 뜸
+
+# 밖에 나가기 싫어짐
+- 추위, 해가 일찍 짐
+
+# 씻기 귀찮아짐
+
+# 몸이 허해짐. 감기 기운.`,
+  author: "김정성",
+  tags: [
+    "겨울",
+    "생활",
+    "계절",
+    "일상",
+    "수면",
+    "추위",
+    "일조량",
+    "감기",
+    "무기력",
+    "생활변화",
+  ],
+  media: [],
+  createdAt: "2025-12-26T18:43:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-3",
+  title: "겨울 몸 변화",
+  content: `# 콧물이 계속 나면서 코로 숨쉬기가 어려워짐
+# 운동을 하면서 숨이 차면 콧물을 들이키면서 (실질적 호흡 x) 입으로 숨셔야 함.
+
+# 그리고 일종의 감기 사이클은 이 시기에 무조건 겪기는 한듯.
+# 목, 코 뒤 불편함. 콧물, 기침. 문제는 감기에 걸리면서 깊고 길게 겪느냐, 감기에 걸리지 않고 얕고 짧게 겪느냐.`,
+  author: "김정성",
+  tags: [
+    "겨울",
+    "몸",
+    "건강",
+    "감기",
+    "호흡",
+    "콧물",
+    "기침",
+    "운동",
+    "면역",
+    "계절변화",
+  ],
+  media: [],
+  createdAt: "2025-11-19T15:55:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-4",
+  title: "겨울 해의 높이",
+  content: `낮게 뜨는 해.
+
+늦게 뜨고 일찍 지는 해.
+
+기울어진 해에 대기에 붉은 빛이 감돈다.
+
+일찍이 저물어가는 느낌을 준다.`,
+  author: "김정성",
+  tags: [
+    "겨울",
+    "해",
+    "태양",
+    "하늘",
+    "석양",
+    "대기",
+    "일조량",
+    "계절",
+    "천문",
+  ],
+  media: [],
+  createdAt: "2025-11-16T13:51:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-5",
+  title: "만들어지는 구름 vs 사라져가는 구름",
+  content: `지금 구름이 만들어지고 있는 중인 구름인지
+사라져가고 있는 구름인지 분별하기`,
+  author: "김정성",
+  tags: [
+    "구름",
+    "하늘",
+    "날씨",
+    "기상",
+    "관찰",
+    "구름형성",
+    "구름소멸",
+    "변화",
+    "판별",
+  ],
+  media: [],
+  createdAt: "2025-09-20T20:07:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-6",
+  title: "예상한 날씨가 예보로 나오는 경험",
+  content: `'날씨의 세계'를 읽으며
+
+구름을 관찰하면서 날씨를 예상했음
+
+온난전선. 높고 넓은 구름, 추적비
+잠깐 갠 하늘
+소나기. 한랭전선
+
+> 날씨가 추워지겠구나 예상
+
+예보로 3일간 추워진다고 예보 뜸`,
+  author: "김정성",
+  tags: [
+    "날씨",
+    "구름",
+    "예보",
+    "예측",
+    "관찰",
+    "기상",
+    "온난전선",
+    "한랭전선",
+    "추적비",
+    "소나기",
+    "능력",
+    "독서",
+  ],
+  media: [],
+  createdAt: "2025-09-17T17:16:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-7",
+  title: "구름 그림자",
+  content: `맑은 하늘은
+
+뜨거운 햇살을 피할 구름 그림자 하나 없어
+
+가로수를 찾아야 했다.`,
+  author: "김정성",
+  tags: [
+    "하늘",
+    "구름",
+    "구름그림자",
+    "햇살",
+    "여름",
+    "더위",
+    "가로수",
+    "날씨",
+    "관찰",
+  ],
+  media: [],
+  createdAt: "2025-09-10T16:06:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-8",
+  title: "날씨 감상자는 비구름을 읽는다",
+  content: `비구름이 오는 것을 포착하고
+
+곧 비가 내릴 것을 예상할 수 있다.`,
+  author: "김정성",
+  tags: [
+    "비",
+    "비구름",
+    "구름",
+    "날씨",
+    "기상",
+    "예측",
+    "관찰",
+    "능력",
+    "날씨감상자",
+  ],
+  media: [],
+  createdAt: "2025-08-01T12:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-9",
+  title: "코리올리 효과",
+  content: `프랑스 과학자 이름을 딴 것.
+
+회전하는 구체의 표면은 그 위치에 따라 다른 속도를 갖는다.
+
+적도 부근이 빠르고 극 지방이 느리다.
+
+적도 부근에서 가진 높은 관성이 상대적으로 낮은 극지방으로 가면서 그 차이만큼 이동하게 보임.
+
+> 근데 왜 굳이 자기 이름을 붙이는지. '회전계 관성 편향'이라고 하면 안 되나.`,
+  author: "김정성",
+  tags: [
+    "코리올리효과",
+    "물리",
+    "지구과학",
+    "과학",
+    "회전",
+    "관성",
+    "적도",
+    "극지방",
+    "명명",
+    "개념",
+  ],
+  media: [],
+  createdAt: "2025-07-25T16:21:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
+},
+
+{
+  id: "season-record-10",
+  title: "비오기 전 붉어지는 하늘",
+  content: `태양빛은 여러 색의 파장으로 이루어져 있다.
+
+비가 오기 전에는 대기 중에 수분과 먼지, 에어로졸이 많아진다.
+
+붉은 햇빛이 구름의 아랫면을 비추면서 극적인 붉은 색감을 형성한다.`,
+  author: "김정성",
+  tags: [
+    "비",
+    "하늘",
+    "붉은하늘",
+    "석양",
+    "구름",
+    "대기",
+    "산란",
+    "레이리산란",
+    "에어로졸",
+    "지구과학",
+    "날씨",
+  ],
+  media: [],
+  createdAt: "2025-07-20T18:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-records"],
 },
 
 

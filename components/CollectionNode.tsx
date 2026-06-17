@@ -129,6 +129,7 @@ export default function CollectionNode({
               key={exp.id}
               experience={exp}
               viewMode={viewMode}
+              collections={collections}
             />
           ))}
         </div>
