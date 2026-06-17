@@ -100,7 +100,7 @@ export default function CollectionNode({
           ease-in-out
           ${
             isOpen
-              ? "max-h-[5000px] opacity-100 mt-3"
+              ? "max-h-[5000px] opacity-100 mt-3 mb-5"
               : "max-h-0 opacity-0 mt-0"
           }
         `}

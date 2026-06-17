@@ -87,12 +87,12 @@ export default async function TagPage({
     </div>
 
     {/* 경험 목록 */}
-    <div className="mt-10">
+    <div className="mt-10 flex flex-wrap gap-4">
       {relatedExperiences.map((exp) => (
         <ExperienceCard
           key={exp.id}
           experience={exp}
-          viewMode={viewMode}
+          viewMode={'card'}
         />
       ))}
     </div>

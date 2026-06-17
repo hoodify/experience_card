@@ -73,4 +73,26 @@ export const collections = [
   },
   
   
+  {
+    id: "idea",
+    name: "아이디어",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
+  
+  {
+    id: "music",
+    name: "음악",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "season",
+    name: "계절",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
 ];

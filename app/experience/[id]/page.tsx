@@ -6,6 +6,8 @@ import { getCollectionPath } from "@/utils/getCollectionPath";
 import { ChevronRight } from "lucide-react";
 import ExperienceCard from "@/components/ExperienceCard";
 import RelatedExperiences from "@/components/RelatedExperiences";
+import MediaGallery from "@/components/MediaGallery";
+
 
 interface Props {
   params: Promise<{
@@ -63,6 +65,23 @@ interface Props {
       day: "numeric",
       weekday: "long",
     });
+    const images =
+      experience.media.filter(
+        (m) => m.type === "image"
+      );
+
+    const poster = images.find(
+      (m) => m.id === "poster"
+    );
+
+    const gallery = poster
+      ? [
+          poster,
+          ...images.filter(
+            (m) => m.id !== "poster"
+          ),
+        ]
+      : images;
 
   return (
     <main className="max-w-4xl mx-auto p-8 w-full">
@@ -123,6 +142,22 @@ interface Props {
         {experience.title}
       </span>
     </div>
+    
+
+      {poster && (
+      <img
+        src={poster.url}
+        alt={experience.title}
+        className="
+          w-full
+          max-h-[500px]
+          object-cover
+          rounded-xl
+          mb-8
+        "
+      />
+    )}
+
 
 
       <h1 className="text-4xl font-bold">
@@ -156,6 +191,19 @@ interface Props {
       >
         {experience.content}
       </div>
+
+        {gallery.length > 0 && (
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-4">
+            Gallery
+          </h2>
+
+          <MediaGallery
+            images={gallery}
+          />
+        </div>
+      )}
+
 
       <RelatedExperiences
         experiences={relatedExperiences}

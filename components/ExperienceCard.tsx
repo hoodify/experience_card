@@ -133,6 +133,8 @@ if (viewMode === "compact") {
         )
       }
       className="
+
+        pl-3
         py-2
         border-b
         border-gray-200
@@ -212,7 +214,7 @@ if (viewMode === "compact") {
           }
           className="
             w-full
-            h-52
+            h-72
             object-cover
             rounded-md
             mt-4
@@ -221,7 +223,7 @@ if (viewMode === "compact") {
       ) : (
         <div
           className="
-            h-52
+            h-72
             mt-4
             rounded-md
 

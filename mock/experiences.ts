@@ -1,5 +1,5 @@
 import { Experience } from "@/types/experience";
-
+import { media } from "./media";
 
 export const experiences: Experience[] = [
   {
@@ -294,7 +294,7 @@ export const experiences: Experience[] = [
 
 
 {
-  id: "9",
+  id: "backrooms-2026",
 
   title: "백룸 (2026)",
 
@@ -385,7 +385,24 @@ everything and nothing.
     "movie-overseas"
   ],
 
-  media: [],
+  media: [{
+      id: "poster",
+      type: "image",
+      url: media["backrooms-2026"].poster,
+      caption: "백룸 포스터",
+    },
+    {
+      id: "scene1",
+      type: "image",
+      url: media["backrooms-2026"].scenes[0],
+      caption: "백룸 스틸컷",
+    },
+    {
+      id: "scene2",
+      type: "image",
+      url: media["backrooms-2026"].scenes[1],
+      caption: "백룸 스틸컷",
+    },],
 
   createdAt: "2026-06-12T23:00:00+09:00",
 
@@ -395,7 +412,7 @@ everything and nothing.
 },
 
 {
-  id: "10",
+  id: "disclosure-day-2026",
 
   title: "디스클로저 데이 (2026)",
 
@@ -474,7 +491,18 @@ Listen.
     "movie-overseas"
   ],
 
-  media: [],
+  media: [{
+      id: "poster",
+      type: "image",
+      url: media["disclosure-day-2026"].poster,
+      caption: "디스클로저 데이 포스터",
+    },
+    {
+      id: "scene1",
+      type: "image",
+      url: media["disclosure-day-2026"].scenes[0],
+      caption: "디스클로저 데이 스틸컷",
+    },],
 
   createdAt: "2026-06-13T09:00:00+09:00",
 
