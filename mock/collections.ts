@@ -73,6 +73,13 @@ export const collections = [
     createdAt: "2026-01-01",
   },
   
+  {
+    id: "reading-place",
+    name: "독서 장소",
+    ownerId: "u1",
+    parentId: "reader",
+    createdAt: "2026-01-01",
+  },
   
   {
     id: "idea",

@@ -1355,6 +1355,387 @@ ex)
   source: "manual",
   collectionIds: ["season-records"],
 },
+{
+  id: "greenland-2020",
+  title: "그린랜드 (2020)",
+  content: `재난영화의 전형적인 구조인 탈출과 도달의 여정을 따른다.
+재난 상황 속에서 계속해서 제약과 위험 요소가 등장하며 긴장감을 유지한다.
+
+가족 간의 갈등과 유대가 중요한 축으로 작용한다.
+재난 영화에서 가족에게 문제가 있는 설정은 위기 속에서 가족애와 상황의 비극성을 더욱 강조하기 위한 장치처럼 보였다.
+
+정부의 진실 은폐와 혜성 충돌이라는 거대한 재난이 이야기의 배경이다.
+급박한 환경 속에서 인간성이 무너지고 사람들이 극단적으로 변해가는 모습도 인상적이었다.
+
+재난 시 필요한 사람으로 기술자와 전문 인력이 강조된다.
+
+'알아낼 방법은 하나뿐이잖아요?'라는 대사가 인상적이었다.
+
+혜성이 떨어지는 장면과 압도적인 파괴력의 연출은 좋았지만, 전체적인 감상은 그저 무난한 편이었다.`,
+  author: "김정성",
+  tags: [
+    "영화",
+    "해외영화",
+    "재난",
+    "재난영화",
+    "가족애",
+    "혜성충돌",
+    "진실은폐",
+    "인간성",
+    "생존",
+    "탈출",
+    "긴장감",
+    "기술자",
+    "우주전쟁",
+    "재난서사",
+    "파괴연출",
+  ],
+  media: [{
+      id: "poster",
+      type: "image",
+      url: media["greenland-2000"].poster,
+      caption: "그린랜드 포스터",
+    },],
+  createdAt: "2026-06-18T00:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["movie-overseas"],
+},
+
+{
+  id: "reading-place-1",
+  title: "사상 도서관",
+  content: `기찻길 굴다리를 지나 산을 타듯 한참 올라가야 있는 도서관.
+지하 식당에서 라면이나 돈가스를 시켜 먹기도 했다. 돈가스는 싸구려 돈가스 느낌.
+
+2층 정보실에서 작업을 하기도 했다.
+
+어두워지고 나서 산길을 내려올 때의 낭만이 기억에 남는다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "도서관",
+    "사상도서관",
+    "부산",
+    "정보실",
+    "작업",
+    "야간",
+    "산길",
+    "굴다리",
+    "낭만",
+    "돈가스",
+    "라면",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-2",
+  title: "부산 도서관",
+  content: `최근 신설된 큰 규모의 도서관.
+
+새로운 시설과 넓은 공간이 인상적이었다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "도서관",
+    "부산도서관",
+    "부산",
+    "신설도서관",
+    "대형도서관",
+    "공공도서관",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-3",
+  title: "삼락중학교 독서실",
+  content: `밤샘독서를 했던 장소.
+
+테드 창의 SF 소설 『당신 인생의 이야기』를 읽었던 기억이 남아 있다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "독서실",
+    "삼락중학교",
+    "밤샘독서",
+    "테드창",
+    "당신인생의이야기",
+    "SF",
+    "학창시절",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-4",
+  title: "백다방 화장실",
+  content: `큰 볼일을 볼 때 책을 들고 가 읽었던 장소.
+
+짧지만 의외로 집중해서 읽게 되는 공간이었다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "백다방",
+    "화장실",
+    "틈새독서",
+    "집중",
+    "생활독서",
+    "습관",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-5",
+  title: "광교 호수공원 돗자리",
+  content: `혼자 앉기 좋은 장소.
+
+나무 벤치처럼 등을 기대기 좋은 곳이 있었지만 바닥이 많이 딱딱했다.
+
+치킨을 사 와서 먹어보고 싶다는 생각을 했다.
+
+햇살이 뜨거우면 오래 있기 힘들지만 나무가 약간의 그늘을 만들어준다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "광교호수공원",
+    "공원",
+    "돗자리",
+    "야외독서",
+    "햇살",
+    "그늘",
+    "벤치",
+    "치킨",
+    "혼자",
+    "피크닉",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-6",
+  title: "덕포동 주택 방",
+  content: `만화책을 열 권씩 빌려 장판을 켜고 이불을 덮은 채 밤새 읽었던 장소.
+
+5시간씩 훌쩍 지나가곤 했다.
+
+반납하러 갈 때 굴다리를 지나 걸어가던 기억도 함께 남아 있다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "덕포동",
+    "주택",
+    "만화책",
+    "밤샘독서",
+    "장판",
+    "이불",
+    "몰입",
+    "굴다리",
+    "추억",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-7",
+  title: "유니스트 학술정보관",
+  content: `가막못 옆 건물.
+
+1층 로비에서 하스스톤을 하기도 했고 좌우에는 수업 공간이 있었다.
+
+과제와 시험공부를 위해 자주 들렀고 밤늦게까지 공부했던 기억이 남아 있다.
+
+그런데 정작 기억나는 책은 없다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "유니스트",
+    "학술정보관",
+    "대학교",
+    "도서관",
+    "시험공부",
+    "과제",
+    "하스스톤",
+    "가막못",
+    "야간공부",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-8",
+  title: "5비 402대대 운영통제실 도서실",
+  content: `군 생활 중 가장 특이했던 독서 공간.
+
+정훈도서와 진중문고를 보급 받아 비치했다.
+
+손잡이 휠을 돌려 책장을 이동시키는 오래된 도서실이었다.
+
+픽업 아티스트 책, 관상 책, 『식객』, 『그레이의 50가지 그림자』, 조승연의 『이야기 인문학』 등 다양한 책들이 있었다.
+
+생활관 독서실에서도 읽곤 했다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "군대",
+    "402대대",
+    "운영통제실",
+    "도서실",
+    "진중문고",
+    "정훈도서",
+    "식객",
+    "그레이의50가지그림자",
+    "이야기인문학",
+    "관상",
+    "픽업아티스트",
+    "생활관",
+    "추억",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-9",
+  title: "자취방",
+  content: `언제 읽었는지 모르게 조금씩 쌓여 있는 책들.
+
+책이 생활 공간의 일부가 되어버린 장소.
+
+자기 전 누워서 잠깐 읽기. 울 시리즈. 알리익스프레스에서 산 조명. 아니면 눈 아픈 스탠드 아니면 노트북 불빛
+`
+
+
+,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "자취방",
+    "생활공간",
+    "책장",
+    "쌓인책",
+    "일상",
+    "습관",
+    "독서생활",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-10",
+  title: "바른샘 어린이 도서관",
+  content: `『타나토노트』를 빌리기 위해 방문한 도서관.
+
+3층이 가족 공간처럼 구성되어 있었다.
+
+대여 기계가 계속 어린이를 대상으로 안내하는 소리를 냈던 것이 기억난다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "도서관",
+    "어린이도서관",
+    "바른샘어린이도서관",
+    "타나토노트",
+    "베르나르베르베르",
+    "가족공간",
+    "대여기계",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
+
+{
+  id: "reading-place-11",
+  title: "광교 푸른숲 도서관",
+  content: `호수공원 근처에 있는 도서관.
+
+가는 길의 풍경이 좋지만 조금 멀다.
+
+검색한 책이 없는 경우가 꽤 있었고 장서가 아주 많은 편은 아닌 듯했다.
+
+반면 카페는 자리와 분위기가 꽤 괜찮았다.`,
+  author: "김정성",
+  tags: [
+    "독서",
+    "독서장소",
+    "도서관",
+    "광교푸른숲도서관",
+    "광교",
+    "호수공원",
+    "카페",
+    "분위기",
+    "장서",
+    "산책",
+    "공공도서관",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["reading-place"],
+},
 
 
 ];

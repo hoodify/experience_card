@@ -82,7 +82,7 @@ export default function ExperienceCard({
           alt={experience.title}
           className="
             w-full
-            h-40
+            h-50
             object-cover
           "
         />
@@ -148,7 +148,7 @@ export default function ExperienceCard({
             text-sm
           "
         >
-          ▶ {experience.title}
+          • {experience.title}
         </h2>
 
         <p

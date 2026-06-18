@@ -17,4 +17,9 @@ export const media = {
       "/media/disclosure-day-2026/scene01.jpg",
     ],
   },
+  "greenland-2000": {
+    poster:
+      "/media/greenland-2000/poster.jpg",
+
+  },
 };

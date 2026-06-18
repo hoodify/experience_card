@@ -6,6 +6,7 @@ import { ChevronRight, ChevronDown } from "lucide-react";
 import { Collection } from "@/types/collection";
 import { Experience } from "@/types/experience";
 
+import { getCollectionExperienceCount } from "@/utils/getCollectionExperienceCount";
 import ExperienceCard from "./ExperienceCard";
 import { ViewMode } from "@/types/view";
 
@@ -33,9 +34,13 @@ export default function CollectionNode({
   const collectionExperiences = experiences.filter((exp) =>
     exp.collectionIds?.includes(collection.id)
   );
-
-  const totalCount =
-    childCollections.length + collectionExperiences.length;
+  
+const totalCount =
+  getCollectionExperienceCount(
+    collection.id,
+    collections,
+    experiences
+  );
 
   return (
     <div className="mb-2">
@@ -71,11 +76,35 @@ export default function CollectionNode({
           )}
         </span>
 
-        {/* COLLECTION NAME */}
-        <span className="truncate">
-          {collection.name}
-        </span>
+        <div
+        className="
+          flex
+          items-center
+          gap-2
+          min-w-0
+        "
+      >
+        <img
+          src={
+            collection.image ??
+            "/collection-images/default2.png"
+          }
+          alt={collection.name}
+          className="
+            w-6
+            h-6
+            rounded
+            object-cover
+            shrink-0
+          "
+        />
 
+          {/* COLLECTION NAME */}
+          <span className="truncate">
+            {collection.name}
+          </span>
+
+        </div>
         {/* COUNT (fixed width → 흔들림 방지) */}
         <span
           className="

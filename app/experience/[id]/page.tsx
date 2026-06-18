@@ -151,7 +151,7 @@ interface Props {
         className="
           w-full
           max-h-[500px]
-          object-cover
+          object-contain
           rounded-xl
           mb-8
         "
