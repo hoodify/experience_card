@@ -52,6 +52,18 @@ interface Props {
           experience.tags.includes(tag)
         )
     )
+    .map((exp) => ({
+      experience: exp,
+      sharedTags: exp.tags.filter(
+        (tag) =>
+          experience.tags.includes(tag)
+      ),
+    }))
+    .sort(
+      (a, b) =>
+        b.sharedTags.length -
+        a.sharedTags.length
+    )
     .slice(0, 6);
 
   const date = new Date(

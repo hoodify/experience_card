@@ -104,6 +104,20 @@ export const collections = [
     createdAt: "2026-01-01",
   },
   {
+    id: "music-record",
+    name: "기록",
+    ownerId: "u1",
+    parentId: "music",
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "music-moment",
+    name: "순간",
+    ownerId: "u1",
+    parentId: "music",
+    createdAt: "2026-01-01",
+  },
+  {
     id: "season",
     name: "계절",
     ownerId: "u1",

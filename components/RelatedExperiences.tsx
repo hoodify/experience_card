@@ -10,8 +10,13 @@ import ExperienceCard from "./ExperienceCard";
 import { Experience } from "@/types/experience";
 import { collections } from "@/mock/collections";
 
+interface RelatedExperience {
+  experience: Experience;
+  sharedTags: string[];
+}
+
 interface Props {
-  experiences: Experience[];
+  experiences: RelatedExperience[];
 }
 
 export default function RelatedExperiences({
@@ -49,21 +54,74 @@ export default function RelatedExperiences({
           Related Experiences
         </span>
 
-        <span className="text-gray-500 text-lg">
+        <span
+          className="
+            text-gray-500
+            text-lg
+          "
+        >
           ({experiences.length})
         </span>
       </button>
 
       {isOpen && (
-        <div className="mt-4 space-y-1">
-          {experiences.map((exp) => (
-            <ExperienceCard
-              key={exp.id}
-              experience={exp}
-              viewMode="compact"
-              collections={collections}
-            />
-          ))}
+        <div className="mt-4">
+          {experiences.map(
+            ({
+              experience,
+              sharedTags,
+            }) => (
+              <div
+                key={experience.id}
+                className="mb-4"
+              >
+                <ExperienceCard
+                  experience={
+                    experience
+                  }
+                  viewMode="compact"
+                  collections={
+                    collections
+                  }
+                />
+
+                <div
+                  className="
+                    ml-6
+                    mt-1
+                    mb-3
+                    flex
+                    flex-wrap
+                    items-center
+                    gap-2
+                  "
+                >
+                  <span
+                    className="
+                      text-xs
+                      text-gray-400
+                    "
+                  >
+                    Related by
+                  </span>
+
+                  {sharedTags.map(
+                    (tag) => (
+                      <span
+                        key={tag}
+                        className="
+                          text-xs
+                          font-medium
+                        "
+                      >
+                        #{tag}
+                      </span>
+                    )
+                  )}
+                </div>
+              </div>
+            )
+          )}
         </div>
       )}
     </div>
