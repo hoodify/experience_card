@@ -1787,5 +1787,158 @@ ex)
   collectionIds: ["reading-log"],
 },
 
+{
+  id: "bucket-list-1",
+  title: "새로운 음식과 진미",
+  content: `새로운 음식과 진미를 경험하기.
 
+익숙한 음식에 머무르지 않고 새로운 맛을 경험해보고 싶다.
+
+지역의 향토 음식, 해외의 이국적인 음식, 처음 보는 재료와 조리법까지.
+
+맛을 통해 새로운 문화와 세계를 경험하는 것이 목표.`,
+  author: "김정성",
+  tags: [
+    "버킷리스트",
+    "음식",
+    "미식",
+    "진미",
+    "새로운경험",
+    "호기심",
+    "탐험",
+    "문화",
+    "식도락",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:57:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["bucket-list"],
+},
+{
+  id: "bucket-list-2",
+  title: "아이디어를 구현. 가벼움. 유능함",
+  content: `생각하는 대로 구현하는 App 만들기.
+
+떠오른 아이디어를 기술적 제약 없이 구현할 수 있는 개발자가 되고 싶다.
+
+유능함, 최적화, 설계 능력을 갖추고 원하는 서비스를 직접 만들어내는 것이 목표.
+
+생각이 곧 현실이 되는 개발 역량을 갖추고 싶다.`,
+  author: "김정성",
+  tags: [
+    "버킷리스트",
+    "개발",
+    "앱개발",
+    "창작",
+    "구현",
+    "유능함",
+    "최적화",
+    "설계",
+    "프로그래밍",
+    "성장",
+    "기술",
+    "아이디어",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:58:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["bucket-list"],
+},
+{
+  id: "bucket-list-3",
+  title: "지식의 지도",
+  content: `지식의 지도를 만들기.
+
+분절된 지식들을 서로 연결하고 구조화하여 하나의 지도로 표현하고 싶다.
+
+개념과 경험, 사람과 사건이 관계망을 이루는 거대한 지식 체계를 구축하는 것이 목표.
+
+지식을 저장하는 것을 넘어 탐험할 수 있는 형태로 만들고 싶다.`,
+  author: "김정성",
+  tags: [
+    "버킷리스트",
+    "지식",
+    "지식의지도",
+    "지식체계",
+    "구조화",
+    "연결",
+    "개념",
+    "관계망",
+    "아카이브",
+    "그래프",
+    "탐험",
+    "시스템",
+  ],
+  media: [],
+  createdAt: "2025-07-19T18:59:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["bucket-list"],
+},
+{
+  id: "bucket-list-4",
+  title: "역동적인 날씨",
+  content: `역동적인 날씨를 경험하기.
+
+거대한 적운, 폭우, 강한 바람, 붉은 노을과 같은 극적인 날씨를 직접 경험하고 관찰하고 싶다.
+
+날씨의 변화가 주는 감각과 분위기를 몸으로 느끼며 기록하고 싶다.`,
+  author: "김정성",
+  tags: [
+    "버킷리스트",
+    "날씨",
+    "기상",
+    "구름",
+    "폭우",
+    "태풍",
+    "노을",
+    "자연",
+    "관찰",
+    "감상",
+    "역동성",
+    "경험",
+  ],
+  media: [],
+  createdAt: "2025-07-19T19:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["bucket-list"],
+},
+{
+  id: "bucket-list-5",
+  title: "새로운 장소와 여행",
+  content: `새로운 장소와 여행을 경험하기.
+
+가보지 않은 도시, 낯선 거리, 새로운 풍경을 직접 걸어보고 싶다.
+
+여행은 장소를 소비하는 것이 아니라 새로운 감각과 시야를 얻는 경험이라고 생각한다.
+
+계속해서 새로운 곳을 탐험하며 세계를 넓혀가고 싶다.`,
+  author: "김정성",
+  tags: [
+    "버킷리스트",
+    "여행",
+    "새로운장소",
+    "탐험",
+    "풍경",
+    "도시",
+    "경험",
+    "호기심",
+    "시야확장",
+    "이동",
+    "발견",
+  ],
+  media: [],
+  createdAt: "2025-07-19T19:01:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["bucket-list"],
+},
 ];

@@ -82,7 +82,7 @@ export default function ExperienceCard({
           alt={experience.title}
           className="
             w-full
-            h-50
+            h-40
             object-cover
           "
         />

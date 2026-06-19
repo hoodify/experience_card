@@ -44,10 +44,11 @@ export default function HomePage() {
 
           <div>
             <h1 className="text-3xl font-bold">
-              Experience Platform
+              Experience Asset Platform
             </h1>
 
             <p className="mt-1 text-gray-500">
+              경험 '자산' / 보여주기
             </p>
           </div>
         </div>

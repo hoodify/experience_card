@@ -51,7 +51,6 @@ const totalCount =
           flex
           items-center
           gap-2
-          w-full
           font-semibold
           text-lg
           hover:underline

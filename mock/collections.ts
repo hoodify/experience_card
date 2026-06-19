@@ -97,6 +97,13 @@ export const collections = [
     createdAt: "2026-01-01",
   },
   {
+    id: "music-live",
+    name: "라이브 음악",
+    ownerId: "u1",
+    parentId: "music",
+    createdAt: "2026-01-01",
+  },
+  {
     id: "season",
     name: "계절",
     ownerId: "u1",
@@ -108,6 +115,15 @@ export const collections = [
     name: "기록",
     ownerId: "u1",
     parentId: "season",
+    createdAt: "2026-01-01",
+  },
+
+  
+  {
+    id: "bucket-list",
+    name: "버킷리스트",
+    ownerId: "u1",
+    parentId: null,
     createdAt: "2026-01-01",
   },
 ];
