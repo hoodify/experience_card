@@ -131,8 +131,23 @@ export const collections = [
     parentId: "season",
     createdAt: "2026-01-01",
   },
+  {
+    id: "season-sky-color",
+    name: "하늘색 수집",
+    ownerId: "u1",
+    parentId: "season",
+    createdAt: "2026-01-01",
+  },
 
-  
+  ,
+  {
+    id: "season-wind",
+    name: "바람 수집",
+    ownerId: "u1",
+    parentId: "season",
+    createdAt: "2026-01-01",
+  },
+
   {
     id: "bucket-list",
     name: "버킷리스트",
