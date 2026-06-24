@@ -21,6 +21,8 @@ export function getExperienceThumbnail(
         experience.collectionIds?.[0]
     );
 
+    console.log(collections);
+
   return (
     collection?.image ??
     "/collection-images/default.png"

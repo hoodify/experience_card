@@ -1,6 +1,6 @@
 import { Collection } from "@/types/collection";
 
-export const collections = [
+export const collections: Collection[] = [
   {
     id: "travel",
     name: "여행",
@@ -139,7 +139,7 @@ export const collections = [
     createdAt: "2026-01-01",
   },
 
-  ,
+  
   {
     id: "season-wind",
     name: "바람 수집",

@@ -15,6 +15,7 @@ interface Props {
   collections: Collection[];
   experiences: Experience[];
   viewMode: ViewMode;
+  depth?: number;
 }
 
 export default function CollectionNode({
@@ -22,6 +23,7 @@ export default function CollectionNode({
   collections,
   experiences,  
   viewMode,
+  depth = 0,
 }: Props) {
 
 
@@ -47,15 +49,21 @@ const totalCount =
       {/* HEADER */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="
+        className={`
           flex
           items-center
           gap-2
           font-semibold
-          text-lg
           hover:underline
           cursor-pointer
-        "
+          ${
+            depth === 0
+              ? "text-lg"
+              : depth === 1
+              ? "text-base"
+              : "text-sm"
+          }
+        `}
       >
         {/* TOGGLE ICON (fixed width → layout 안정화 핵심) */}
         <span
@@ -141,6 +149,7 @@ const totalCount =
             collections={collections}
             experiences={experiences}
             viewMode={viewMode}
+            depth={depth + 1}
           />
         ))}
 
