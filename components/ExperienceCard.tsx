@@ -65,6 +65,7 @@ export default function ExperienceCard({
           w-64
           border
           border-black
+          border-2
           rounded-lg
           bg-white
           overflow-hidden
