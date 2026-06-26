@@ -155,4 +155,25 @@ export const collections: Collection[] = [
     parentId: null,
     createdAt: "2026-01-01",
   },
+  {
+    id: "history",
+    name: "역사",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "history-records",
+    name: "기록",
+    ownerId: "u1",
+    parentId: 'history',
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "contents-collection",
+    name: "콘텐츠 수집",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
 ];
