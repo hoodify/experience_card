@@ -125,8 +125,15 @@ export const collections: Collection[] = [
     createdAt: "2026-01-01",
   },
   {
+    id: "season-insight",
+    name: "인사이트",
+    ownerId: "u1",
+    parentId: "season",
+    createdAt: "2026-01-01",
+  },
+  {
     id: "season-records",
-    name: "기록",
+    name: "일지",
     ownerId: "u1",
     parentId: "season",
     createdAt: "2026-01-01",

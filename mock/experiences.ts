@@ -1110,7 +1110,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1143,7 +1143,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1172,7 +1172,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1202,7 +1202,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1227,7 +1227,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1264,17 +1264,24 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
   id: "season-record-7",
   title: "구름 그림자",
-  content: `맑은 하늘은
+  content: `
+햇살이 따가운 여름 날씨. 전날 비가 왔다면, 곧 비가 올지도 모르는 날씨라면.
 
-뜨거운 햇살을 피할 구름 그림자 하나 없어
+어쨌든 하늘에 큰 구름 덩어리들이 듬성듬성 있다면.
 
-가로수를 찾아야 했다.`,
+그 구름이 해를 가릴 때 생기는 그림자에서 햇살을 피할 수 있다. 
+
+해의 위치, 햇빛이 비치는 각도에 따라 그림자가 생기는 위치도 다름
+
+여름 하늘의 감상 요소. 
+
+하늘을 보면서 구름 그림자가 얼마나 있나 생각해봄. `,
   author: "김정성",
   tags: [
     "하늘",
@@ -1283,7 +1290,7 @@ ex)
     "햇살",
     "여름",
     "더위",
-    "가로수",
+    "날씨요소",
     "날씨",
     "관찰",
   ],
@@ -1292,7 +1299,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1318,7 +1325,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1351,7 +1358,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1381,7 +1388,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 
 {
@@ -1427,7 +1434,7 @@ ex)
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["season-records"],
+  collectionIds: ["season-insight"],
 },
 {
   id: "greenland-2020",
