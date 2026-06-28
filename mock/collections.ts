@@ -163,10 +163,24 @@ export const collections: Collection[] = [
     createdAt: "2026-01-01",
   },
   {
+    id: "knowledge-map",
+    name: "지식의 지도",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
+  {
     id: "history",
     name: "역사",
     ownerId: "u1",
-    parentId: null,
+    parentId: 'knowledge-map',
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "etymology",
+    name: "어원, 이름",
+    ownerId: "u1",
+    parentId: 'knowledge-map',
     createdAt: "2026-01-01",
   },
   {
