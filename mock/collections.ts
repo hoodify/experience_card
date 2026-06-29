@@ -197,4 +197,33 @@ export const collections: Collection[] = [
     parentId: null,
     createdAt: "2026-01-01",
   },
+  {
+    id: "recent-issues",
+    name: "최근 이슈",
+    ownerId: "u1",
+    parentId: 'contents-collection',
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "humor",
+    name: "유머",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
+  
+  {
+    id: "why-funny",
+    name: "웃긴 것은 왜 웃긴가",
+    ownerId: "u1",
+    parentId: 'humor',
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "funny-collection",
+    name: "모음",
+    ownerId: "u1",
+    parentId: 'humor',
+    createdAt: "2026-01-01",
+  },
 ];
