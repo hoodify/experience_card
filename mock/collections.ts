@@ -104,6 +104,13 @@ export const collections: Collection[] = [
     createdAt: "2026-01-01",
   },
   {
+    id: "music-collection",
+    name: "음악 모음",
+    ownerId: "u1",
+    parentId: "music",
+    createdAt: "2026-01-01",
+  },
+  {
     id: "music-record",
     name: "기록",
     ownerId: "u1",
