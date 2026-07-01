@@ -247,4 +247,5 @@ export const collections: Collection[] = [
     parentId: null,
     createdAt: "2026-01-01",
   },
+  
 ];
