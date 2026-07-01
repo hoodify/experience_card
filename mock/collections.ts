@@ -80,6 +80,13 @@ export const collections: Collection[] = [
     parentId: "reader",
     createdAt: "2026-01-01",
   },
+  {
+    id: "bookshelf",
+    name: "책장",
+    ownerId: "u1",
+    parentId: "reader",
+    createdAt: "2026-01-01",
+  },
   
   {
     id: "idea",
@@ -231,6 +238,13 @@ export const collections: Collection[] = [
     name: "모음",
     ownerId: "u1",
     parentId: 'humor',
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "delicious-world",
+    name: "세상의 진미",
+    ownerId: "u1",
+    parentId: null,
     createdAt: "2026-01-01",
   },
 ];

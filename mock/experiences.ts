@@ -3150,4 +3150,239 @@ ex)
   source: "manual",
   collectionIds: ["contents-collection"],
 },
+{
+  id: "funny-1",
+  title: "프리즌 브레이크의 뻔뻔한 대사",
+  content: `프리즌브레이크
+
+"When this guy woke up this morning, he was white."
+
+뻔뻔함, 말도 안 되는 과장됨.
+누가봐도 아닌데 내 의견, 주장을 위해 얼토당토않게 말함.`,
+  author: "김정성",
+  tags: [
+    "유머",
+    "프리즌브레이크",
+    "드라마",
+    "해외드라마",
+    "명대사",
+    "과장",
+    "억지논리",
+    "뻔뻔함",
+    "코미디",
+    "웃음",
+    "언어유희",
+    "표현",
+  ],
+  media: [],
+  createdAt: "2026-07-01T12:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["funny-collection"],
+},
+{
+  id: "funny-2",
+  title: "'우디르 위험해!'",
+  content: `5인 칼바람 나락.
+
+강심, 드롭킥 세트.
+
+상대 우디르 우리팀 애쉬 슬로우에 농락당함.
+
+상대 우디르를 구한다는 맥락.
+궁으로 우디르 잡고 상대 진영으로.
+
+근데 거기서 상대방과 우디르를 죽이는 것.
+
+*구조*
+
+의도와 다른 결과
+(ex. 도움을 주려는데 오히려 성가심)
+
+상대를 구하는 의도.
+상대를 다 때려죽이는 결과.`,
+  author: "김정성",
+  tags: [
+    "유머",
+    "리그오브레전드",
+    "칼바람나락",
+    "우디르",
+    "애쉬",
+    "세트",
+    "강심",
+    "드롭킥",
+    "의도와다른결과",
+    "아이러니",
+    "상황개그",
+    "웃기는구조",
+    "게임",
+    "구조분석",
+  ],
+  media: [],
+  createdAt: "2026-07-01T12:10:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["funny-collection"],
+},
+{
+  id: "contents-collection-5",
+  title: "원이·미나미 치바현 콘텐츠 메모",
+  content: `콘텐츠
+
+원이, 미나미 치바현 2
+
+서도 선생님
+
+장화홍련 분위기
+
+캐리어 PPL
+
+미나미 도쿄 화법`,
+  author: "김정성",
+  tags: [
+    "콘텐츠",
+    "유튜브",
+    "원이",
+    "미나미",
+    "치바현",
+    "일본",
+    "도쿄",
+    "장화홍련",
+    "분위기",
+    "PPL",
+    "캐리어",
+    "화법",
+    "연출",
+    "관찰",
+  ],
+  media: [],
+  createdAt: "2026-07-01T12:20:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["contents-collection"],
+},
+{
+  id: "recent-issues-1",
+  title: "최근 이슈 메모",
+  content: `한국 월드컵 탈락.
+홍명보 감독 사임.
+관중, 팬들의 분노.
+
+리센느
+
+날씨 (선선, 유럽)
+
+MSI
+
+선관위`,
+  author: "김정성",
+  tags: [
+    "최근이슈",
+    "한국축구",
+    "월드컵",
+    "홍명보",
+    "감독",
+    "사임",
+    "축구",
+    "팬",
+    "여론",
+    "MSI",
+    "e스포츠",
+    "리센느",
+    "날씨",
+    "유럽",
+    "선관위",
+    "시사",
+  ],
+  media: [],
+  createdAt: "2026-07-01T12:30:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["recent-issues"],
+},
+{
+  id: "music-record-2",
+  title: "에스파 - Lemonade 감상",
+  content: `에스파 - Lemonade
+
+일렉트로닉 댄스
+
+정규 2집.
+26년 5월.
+타이틀 Lemonade.
+
+카리나 연기.
+
+Wait, oh my god, stop
+
+윈터 라인
+"I can take whatever, put it all over my body.
+그게 fashion."
+
+"서로 다른 세계들에 다가서면 일어나는 action."
+
+Dirty dancin'
+
+힘 빼고.
+
+지젤 라인.
+
+얽혀버린 문젤 다 mixing.
+Like a hurricane.
+휘저어 pieces.
+
+All the lemons,
+난 갈아 마셔 다.
+
+I don't care if you say I'm freaky.
+
+쫀득함.
+
+Bass track.
+
+윈터 의상.
+제복?
+
+"I ain't got no ETA."
+
+이 부분 안무.
+단군 라면끓여주세요 느낌.
+팔 펼쳐서.
+유쾌하게 신나는 바이브.`,
+  author: "김정성",
+  tags: [
+    "음악",
+    "에스파",
+    "aespa",
+    "Lemonade",
+    "케이팝",
+    "SM",
+    "카리나",
+    "윈터",
+    "지젤",
+    "닝닝",
+    "일렉트로닉",
+    "댄스",
+    "베이스",
+    "안무",
+    "퍼포먼스",
+    "보컬",
+    "패션",
+    "제복",
+    "가사",
+    "뮤직비디오",
+    "신곡",
+    "감상",
+  ],
+  media: [],
+  createdAt: "2026-07-01T12:40:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["music-collection"],
+},
 ];
