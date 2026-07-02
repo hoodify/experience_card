@@ -50,6 +50,14 @@ export const collections: Collection[] = [
   },
 
   {
+    id: "direction-ref",
+    name: "연출 ref",
+    ownerId: "u1",
+    parentId: "movie",
+    createdAt: "2026-01-01",
+  },
+
+  {
     id: "reader",
     name: "독서가",
     ownerId: "u1",
@@ -245,6 +253,13 @@ export const collections: Collection[] = [
     name: "세상의 진미",
     ownerId: "u1",
     parentId: null,
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "ingredient",
+    name: "재료",
+    ownerId: "u1",
+    parentId: 'delicious-world',
     createdAt: "2026-01-01",
   },
   

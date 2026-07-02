@@ -3599,7 +3599,7 @@ Bass track.
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["history"],
+  collectionIds: ["history-records"],
 },
 {
   id: "bookshelf-1",
@@ -3710,7 +3710,7 @@ Bass track.
   visibility: "public",
   status: "published",
   source: "manual",
-  collectionIds: ["delicious-world"],
+  collectionIds: ["ingredient"],
 },
 {
   id: "delicious-world-12",
@@ -4186,5 +4186,356 @@ Bass track.
   status: "published",
   source: "manual",
   collectionIds: ["delicious-world"],
+},
+{
+  id: "funny-3",
+  title: "양배추 가격과 물가의 구조",
+  content: `어케 좆만한 양배추가 4980원이야 씨발
+친환경이라 비싼게 아니라 선택지가 친환경밖에 없음
+환경파괴 니그로 아동착취 플랜테이션 GMO 제국주의 통큰 알배추같은건 없냐
+
+물가에 대한 경제적 지식
+사람이 싸야 물가도 싸다. 모든 생산, 공급에는 '사람'이 필요. 사람이 싸야 제품도 싸다.`,
+  author: "김정성",
+  tags: [
+    "유머",
+    "밈",
+    "양배추",
+    "물가",
+    "경제",
+    "인건비",
+    "생산",
+    "공급망",
+    "친환경",
+    "플랜테이션",
+    "GMO",
+    "생활",
+    "드립",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["funny-collection"],
+},
+{
+  id: "history-18",
+  title: "차와 설탕, 산업화를 움직인 에너지",
+  content: `처음에는 사치품이었지만, 결국에는 국민의 일상, 노동, 문화를 지탱하는 필수 소비재가 되었습니다.
+
+그래서 영국은 단순히 차를 사고 싶었던 것이 아니라, 차가 끊기지 않는 무역 체계를 유지해야 하는 국가가 되었고, 그 과정에서 무역 적자를 해결하려는 압력이 커졌습니다. 그 압력이 결국 아편 무역과 아편전쟁으로 이어진 중요한 배경 중 하나.
+
+카리브해 설탕(플랜테이션) + 차의 카페인.
+> 산업화 공장 노동력을 위한 에너지 드링크.`,
+  author: "김정성",
+  tags: [
+    "역사",
+    "영국",
+    "산업혁명",
+    "산업화",
+    "차",
+    "설탕",
+    "플랜테이션",
+    "카리브해",
+    "아편전쟁",
+    "무역",
+    "무역적자",
+    "노동",
+    "공장",
+    "제국주의",
+    "식민지",
+    "에너지",
+    "생활사",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:05:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["history-records"],
+},
+{
+  id: "season-wind-5",
+  title: "에어컨 바람을 직접 맞는 불쾌함",
+  content: `에어컨 바람 바로 맞기.
+백다방 1인 자리 없을 때 앉은 곳. 천장 에어컨 바람이 바로. 현기증날 것 같아 옮김.
+버스 에어컨도 바람 바로 맞는 건 별로.
+PC방도 에어컨 앞자리 부담. 처음만 시원함.`,
+  author: "김정성",
+  tags: [
+    "계절",
+    "여름",
+    "바람",
+    "에어컨",
+    "냉방",
+    "백다방",
+    "버스",
+    "PC방",
+    "실내",
+    "체감",
+    "불쾌감",
+    "환경",
+    "감각",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:10:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-wind"],
+},
+{
+  id: "season-wind-6",
+  title: "무더운 여름 바람의 무게",
+  content: `무더운 여름 바람은 무겁고 더워 숨을 막는다.
+눈부셔 찌푸리게 만드는 햇살과 함께.
+실내 에어컨 바람에서 밖으로 나갈 때.`,
+  author: "김정성",
+  tags: [
+    "계절",
+    "여름",
+    "바람",
+    "폭염",
+    "무더위",
+    "햇살",
+    "실외",
+    "실내",
+    "에어컨",
+    "체감온도",
+    "공기",
+    "감각",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:15:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-wind"],
+},
+{
+  id: "season-wind-7",
+  title: "몸을 기울이게 만드는 강풍",
+  content: `몸을 기울이는 강풍. UNIST 태풍. 건물 밖을 나설 때 뛰어가다 다시 돌아옴.
+바람에 몸을 조금 비스듬히 기댈 수 있음.
+비바람일 때는 우산을 제대로 펼쳐 들 수 없다.`,
+  author: "김정성",
+  tags: [
+    "계절",
+    "바람",
+    "강풍",
+    "태풍",
+    "UNIST",
+    "비바람",
+    "우산",
+    "체험",
+    "날씨",
+    "풍속",
+    "몸",
+    "기억",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:20:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["season-wind"],
+},
+{
+  id: "contents-14",
+  title: "상처만으로 인물을 설명할 수 있을까",
+  content: `라이너의 컬쳐쇼크. 슈퍼걸 리뷰
+
+약점이 없는 존재는 숭배의 대상이 될 수는 있어도, 이야기의 주인공은 될 수 없다.
+신을 이야기 안으로 끌어들이기 위해서는 일단 신을 다치게 해야 한다.
+영웅의 상처. 부모를 잃어버린 어린 시절, 죄책감, 돌이킬 수 없는 과거, 트라우마
+
+이 상처가 캐릭터를 깊이를 만들어내는 손쉬운 지름길로 남용됨 (전가의 보도)
+
+미국 비평가. 파룰 세갈. 트라우마 플롯에 반대. '모든 이야기가 인물의 상처 하나로 모든 것을 설명하려 든다'
+
+한 인간의 서사를 상처 하나로 눌러버린다.
+
+이 영화. 이런 손쉬운 지름길이 마침내 막다른 골목에 다다랐음을 보여주는 사례
+
+좋은 영화는 '보여주지', '외치지' 않는다. (이전에 디스클로저데이 리뷰)`,
+  author: "김정성",
+  tags: [
+    "콘텐츠",
+    "영화",
+    "라이너",
+    "컬쳐쇼크",
+    "슈퍼걸",
+    "스토리텔링",
+    "캐릭터",
+    "트라우마",
+    "영웅",
+    "서사",
+    "비평",
+    "파룰세갈",
+    "연출",
+    "보여주기",
+    "영화분석",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:25:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["contents-collection"],
+},
+{
+  id: "smell-memory-1",
+  title: "과한 향수의 기억",
+  content: `과한 향수
+
+냄새의 기록.
+
+백다방. 머리 묶는 남자 과한 우드 향수.
+
+초등학교? 향수 원액 잘못 뿌려 교실 안에 진동. 가해자.`,
+  author: "김정성",
+  tags: [
+    "냄새",
+    "향수",
+    "후각",
+    "기억",
+    "백다방",
+    "우드향",
+    "초등학교",
+    "감각",
+    "향",
+    "일상",
+    "기록",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:30:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["smell-and-memory"],
+},
+{
+  id: "recent-issues-4",
+  title: "2026년 6월 경제 이슈",
+  content: `26년 6월 즘
+
+- 환율
+- 삼성, 하이닉스 반도체 호황. AI, data, 인프라
+- 코스피. 사이드카. 서킷브레이커
+- 삼성 하이닉스 성과급.`,
+  author: "김정성",
+  tags: [
+    "시사",
+    "경제",
+    "환율",
+    "삼성",
+    "SK하이닉스",
+    "반도체",
+    "AI",
+    "데이터센터",
+    "인프라",
+    "코스피",
+    "사이드카",
+    "서킷브레이커",
+    "증시",
+    "성과급",
+    "2026년",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:35:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["recent-issues"],
+},
+{
+  id: "direction-ref-1",
+  title: "보는 것만으로 해를 입는 존재",
+  content: `보는 것만으로 해를 입음.
+그것을 막으려 스스로 눈을 멀게 함.
+
+레지던트이블 CCTV / 코스믹 호러 / 러브 데스 로봇 / 인디아나 존스`,
+  author: "김정성",
+  tags: [
+    "연출",
+    "레퍼런스",
+    "시각",
+    "눈",
+    "금기",
+    "공포",
+    "코스믹호러",
+    "레지던트이블",
+    "러브데스로봇",
+    "인디아나존스",
+    "설정",
+    "아이디어",
+    "상징",
+    "위험",
+  ],
+  media: [],
+  createdAt: "2026-07-02T12:40:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["direction-ref"],
+},
+{
+  id: "history-record-2",
+  title: "유럽 민족과 잉글랜드 형성",
+  content: `유럽사.
+
+카이사르 전쟁기
+
+켈트족(갈리아인)
+게르만족
+라틴족(로마)
+
+잉글랜드, 게르만족(앵글, 색슨족)
+노르만인(바이킹 후손, 뿌리는 게르만족) 프랑스어를 사용하는 귀족
+
+정복자 윌리엄(노르만)이 잉글랜드 정복. '잉글랜드' 왕이 됨.
+
+게르만 주민에 지배계층만 노르만인.
+
+프랑스계 노르만 귀족이 영국 왕조를 세움.`,
+  author: "김정성",
+  tags: [
+    "역사",
+    "유럽사",
+    "고대사",
+    "중세사",
+    "로마",
+    "카이사르",
+    "갈리아전쟁",
+    "갈리아",
+    "켈트족",
+    "게르만족",
+    "라틴족",
+    "앵글족",
+    "색슨족",
+    "앵글로색슨",
+    "노르만인",
+    "바이킹",
+    "노르망디",
+    "정복자윌리엄",
+    "노르만정복",
+    "1066년",
+    "잉글랜드",
+    "영국사",
+    "프랑스",
+    "왕조",
+    "민족",
+    "언어",
+    "정복",
+    "문화융합",
+    "영국형성",
+  ],
+  media: [],
+  createdAt: "2026-07-02T13:30:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["history-records"],
 },
 ];
