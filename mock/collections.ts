@@ -248,4 +248,12 @@ export const collections: Collection[] = [
     createdAt: "2026-01-01",
   },
   
+  {
+    id: "smell-and-memory",
+    name: "냄새와 기억",
+    ownerId: "u1",
+    parentId: null,
+    createdAt: "2026-01-01",
+  },
+  
 ];
