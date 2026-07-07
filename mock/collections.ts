@@ -206,13 +206,6 @@ export const collections: Collection[] = [
     createdAt: "2026-01-01",
   },
   {
-    id: "history-records",
-    name: "기록",
-    ownerId: "u1",
-    parentId: 'history',
-    createdAt: "2026-01-01",
-  },
-  {
     id: "contents-collection",
     name: "콘텐츠 수집",
     ownerId: "u1",
@@ -258,6 +251,13 @@ export const collections: Collection[] = [
   {
     id: "ingredient",
     name: "재료",
+    ownerId: "u1",
+    parentId: 'delicious-world',
+    createdAt: "2026-01-01",
+  },
+  {
+    id: "food-thoughts",
+    name: "음식 생각",
     ownerId: "u1",
     parentId: 'delicious-world',
     createdAt: "2026-01-01",

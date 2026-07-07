@@ -48,7 +48,7 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-1 text-gray-500">
-              경험 '자산' / 보여주기
+              경험 '자산' / 보여주기 / 경험의 해석, 재료 조각
             </p>
           </div>
         </div>
