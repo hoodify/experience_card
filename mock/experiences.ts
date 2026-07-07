@@ -3051,7 +3051,7 @@ ott뮤지컬을 현장에서 보고싶어하게됨.`,
   collectionIds: ["season-records"],
 },
 {
-  id: "history-record-3",
+  id: "history-record-4",
   title: "산업화에서 냉전까지의 세계사 흐름",
   content: `산업화(식민지 필요성) - 제국주의 식민지 경쟁 - 1차 세계대전 - 대공황 (극단주의 배경)
 이때 식민지. 원료 공급과 제품 판매 시장.
