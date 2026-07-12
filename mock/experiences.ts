@@ -5148,4 +5148,389 @@ a jet of water`,
   source: "manual",
   collectionIds: ["etymology"],
 },
+{
+  id: "history-record-7",
+  title: "독립 이후 미국사의 큰 흐름",
+  content: `독립 이후 미국사
+
+서부 개척 (루이지애나 매입(나폴레옹), 멕시코 전쟁)
+
+남북전쟁
+
+산업화 (철강, 철도, 석유, 금융)
+
+세계대전`,
+  author: "김정성",
+  tags: [
+    "역사",
+    "미국사",
+    "미국",
+    "독립",
+    "서부개척",
+    "루이지애나매입",
+    "나폴레옹",
+    "멕시코전쟁",
+    "남북전쟁",
+    "산업화",
+    "철강",
+    "철도",
+    "석유",
+    "금융",
+    "세계대전",
+    "경제사",
+    "근대사",
+    "세계사",
+  ],
+  media: [],
+  createdAt: "2026-07-06T11:10:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["history"],
+},
+
+{
+  id: "history-record-8",
+  title: "광해군과 중립 외교",
+  content: `숨겨야 할 일들은 조보에 내지 말라고 임금께서 전교하였다.
+
+임금께서 전교하기를 중국 사신과 관계되어 숨길 필요가 있는 일은 대간의 말이라고 하더라도 조보에 싣지 말라...라고 하였다. - 광해군일기.
+
+광해, 왕이 된 남자 (2012)
+
+당시 국내 정세, 해외 정세, 외교와 관련된 부분이 있나.
+
+광해군.
+
+명과 후금 사이의 중립 외교.
+
+임진왜란 겪음 이후 통치.
+
+대동법 (공물 > 쌀로 통일)
+
+허준의 동의보감.
+
+이후 인조반정.
+
+정묘호란.
+
+병자호란.
+
+> 영화 정리. 광해 왕이 된 남자.`,
+  author: "김정성",
+  tags: [
+    "역사",
+    "조선",
+    "광해군",
+    "광해군일기",
+    "광해왕이된남자",
+    "영화",
+    "사료",
+    "조보",
+    "외교",
+    "중립외교",
+    "명나라",
+    "후금",
+    "임진왜란",
+    "대동법",
+    "허준",
+    "동의보감",
+    "인조반정",
+    "정묘호란",
+    "병자호란",
+    "조선후기",
+    "국제정세",
+    "한국사",
+  ],
+  media: [],
+  createdAt: "2026-07-06T11:20:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["history"],
+},
+
+{
+  id: "food-diary-4",
+  title: "나폴리 팟피자 버거",
+  content: `나폴리 팟피자 버거.
+
+우선 번의 식감이 좋았다. 소고기 패티도 소고기 풍미.
+
+발사믹도 너무 산미가 강하지 않아 맛을 잘 돋움.
+
+모짜렐라도 고소한 풍미가 산미와 섞여 맛.
+
+★★★★
+
+같이 시킨 디진다 돈까스 10단계.
+
+그냥저냥 맵게 맛있는 소스 같은데 뭔가 이질적인 맛. 쓰기 전 맛?
+
+매운맛이 늦게 올라옴.`,
+  author: "김정성",
+  tags: [
+    "음식일기",
+    "버거",
+    "햄버거",
+    "팟피자버거",
+    "나폴리",
+    "소고기패티",
+    "번",
+    "발사믹",
+    "모짜렐라",
+    "치즈",
+    "돈까스",
+    "매운맛",
+    "맛평가",
+    "미식",
+    "식당",
+    "리뷰",
+  ],
+  media: [],
+  createdAt: "2026-07-06T11:30:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["food-diary"],
+},
+
+{
+  id: "funny-record-6",
+  title: "백종원 시간여행 드립",
+  content: `그레이엄 벨이 전화기를 발명했을 때 백종원으로부터 부재중이 와있었다.
+
+누군가 이미 날고 있었다 - 라이트 형제.
+
+백종원이 아버지에게 물었다.
+"넌 커서 무엇이 될거냐?"
+
+"옛날 얘기 더 해주세요."
+할머니가 백종원에게 말했다.`,
+  author: "김정성",
+  tags: [
+    "유머",
+    "밈",
+    "백종원",
+    "그레이엄벨",
+    "라이트형제",
+    "시간여행",
+    "뻔뻔하게과장하기",
+    "말도안되는과장",
+    "패러디",
+    "드립",
+    "인터넷유머",
+  ],
+  media: [],
+  createdAt: "2026-07-06T11:40:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["funny-collection"],
+},
+
+{
+  id: "contents-record-19",
+  title: "리센느 안원잘부 거제 영상의 영화성",
+  content: `리센느 안원잘부 거제 영상은 어째서 '영화적'인가?
+
+푼크툼
+
+다큐멘터리가 왜 예술이냐고 묻는다면. 개입하지 않고 기다리는 거.
+
+삶이, 사람이 스스로 이야기를 하도록 카메라를 낮추는 것.
+
+절실함을 전시하면 동정을 얻을 수는 있지만.
+
+전시하지 않은 밑에 깔려있는 절실함은 응원의 대상이 된다.
+
+만들어진 이야기들이 관객을 잃어가는 이 시대에.
+
+정작 사람들이 영화 같다고 말한 것은 어디였나.
+
+어쩌면 지금 극장이 되찾아야 하는 거는 스펙타클이 아니라.
+
+반죽묻은 손으로 뛰쳐나오는 같은.
+
+연출하지 않은 것 앞에서 겸손해야 하는 자세.`,
+  author: "김정성",
+  tags: [
+    "콘텐츠",
+    "영화",
+    "리센느",
+    "안원잘부",
+    "거제",
+    "푼크툼",
+    "다큐멘터리",
+    "영화미학",
+    "스토리텔링",
+    "카메라",
+    "연출",
+    "리얼리즘",
+    "영화비평",
+    "영상분석",
+    "예술",
+    "감정",
+    "응원",
+  ],
+  media: [],
+  createdAt: "2026-07-06T11:50:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["contents-collection"],
+},
+
+{
+  id: "idea-14",
+  title: "모든 가난의 장르가 코미디였으면",
+  content: `아이디어
+
+모든 가난의 장르가 코미디였으면`,
+  author: "김정성",
+  tags: [
+    "아이디어",
+    "코미디",
+    "가난",
+    "장르",
+    "블랙코미디",
+    "사회",
+    "유머",
+    "창작",
+    "이야기",
+  ],
+  media: [],
+  createdAt: "2026-07-06T12:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["idea"],
+},
+
+{
+  id: "idea-15",
+  title: "이야기의 원형 모티브",
+  content: `이야기 원형 모티브
+
+이주민, 낙오자, 범죄자.
+
+새로운 땅.
+
+무법지.
+
+이름지어지지 않은 것들.`,
+  author: "김정성",
+  tags: [
+    "아이디어",
+    "스토리",
+    "원형",
+    "모티브",
+    "서사",
+    "이주민",
+    "낙오자",
+    "범죄자",
+    "프론티어",
+    "무법지",
+    "개척",
+    "창작",
+  ],
+  media: [],
+  createdAt: "2026-07-06T12:10:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["idea"],
+},
+
+{
+  id: "knowledge-map-2",
+  title: "지식은 비추는 것이다",
+  content: `지식은 쌓는 게 아니라
+
+이미 있는 것들을 비추는 것`,
+  author: "김정성",
+  tags: [
+    "지식의지도",
+    "지식",
+    "철학",
+    "인식",
+    "학습",
+    "통찰",
+    "메타인지",
+    "사고",
+    "지식체계",
+  ],
+  media: [],
+  createdAt: "2026-07-06T12:20:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["knowledge-map"],
+},
+
+{
+  id: "idea-16",
+  title: "좋은 프로그램을 가져오기",
+  content: `좋은 것들 뽑아서 그냥 가져오기.
+
+생체 기계로서의 인간.
+
+컴퓨터에 프로그램을 설치해 돌리는 것처럼.`,
+  author: "김정성",
+  tags: [
+    "아이디어",
+    "생체기계",
+    "인간",
+    "프로그램",
+    "행동",
+    "습관",
+    "학습",
+    "최적화",
+    "모방",
+    "자기계발",
+    "인지",
+  ],
+  media: [],
+  createdAt: "2026-07-06T12:30:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["idea"],
+},
+
+{
+  id: "english-writing-4",
+  title: "History and Human Patterns",
+  content: `History rarely repeats itself in any literal sense; what resurfaces are the patterns of human ambition, fear and compromise.
+
+Technologies evolve, governments rise and fall, and societies reinvent themselves, yet the fundamental dilemmas remain strikingly familiar.
+
+Those who study the past, therefore, are not searching for a script to predict the future but for a lens through which the present becomes more intelligible.`,
+  author: "김정성",
+  tags: [
+    "영어",
+    "영어작문",
+    "English",
+    "Writing",
+    "C2",
+    "History",
+    "Essay",
+    "HumanNature",
+    "Patterns",
+    "Ambition",
+    "Fear",
+    "Compromise",
+    "Civilization",
+    "HistoryWriting",
+    "고급영어",
+    "영어공부",
+    "역사철학",
+  ],
+  media: [],
+  createdAt: "2026-07-06T12:40:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["in-english"],
+},
 ];
