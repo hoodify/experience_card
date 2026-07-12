@@ -199,6 +199,13 @@ export const collections: Collection[] = [
     createdAt: "2026-01-01",
   },
   {
+    id: "in-english",
+    name: "In English",
+    ownerId: "u1",
+    parentId: 'knowledge-map',
+    createdAt: "2026-01-01",
+  },
+  {
     id: "etymology",
     name: "어원, 이름",
     ownerId: "u1",

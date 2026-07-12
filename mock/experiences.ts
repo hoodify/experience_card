@@ -4879,4 +4879,273 @@ PC방도 에어컨 앞자리 부담. 처음만 시원함.`,
   source: "manual",
   collectionIds: ["history"],
 },
+{
+  id: "english-writing-3",
+  title: "Rainy Season and Thick Clouds",
+  content: `Short writing
+
+It's dark outside during the rainy season because thick clouds block the sunlight.
+
+Since clouds are made of water, you could think of them as a wall of water blocking the sun.`,
+  author: "김정성",
+  tags: [
+    "영어",
+    "영어작문",
+    "ShortWriting",
+    "Writing",
+    "English",
+    "날씨",
+    "장마",
+    "비",
+    "구름",
+    "햇빛",
+    "광학",
+    "영어공부",
+    "B2",
+    "표현",
+    "회화",
+  ],
+  media: [],
+  createdAt: "2026-07-06T10:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["in-english"],
+},
+
+{
+  id: "history-record-6",
+  title: "조선사를 공부하기 위한 사료와 저술",
+  content: `지식의 지도 - 역사
+
+조선 인재들의 저서.
+이이. 이황. 정약용. 류성룡
+
+정조 시대. 조선왕조실록, 승정원일기
+
+'한국고전종합DB'`,
+  author: "김정성",
+  tags: [
+    "역사",
+    "조선",
+    "한국사",
+    "지식의지도",
+    "사료",
+    "조선왕조실록",
+    "승정원일기",
+    "한국고전종합DB",
+    "이이",
+    "이황",
+    "정약용",
+    "류성룡",
+    "정조",
+    "실학",
+    "유학",
+    "독서",
+    "공부",
+    "역사연구",
+  ],
+  media: [],
+  createdAt: "2026-07-06T10:10:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["history"],
+},
+{
+  id: "history-record-5",
+  title: "정조와 남인, 노론의 정치 구도",
+  content: `조선 정조.
+
+노론과 남인.
+영조와 집권 노론 세력에 대항하여 일어난 무신란에 일부 남인 참여.
+
+남인들이 모여 살던 영남 탄압.
+
+정조.
+
+사도세자와 남인.
+
+남인들이 노론에 대항하기 위한 재료?
+
+만인소`,
+  author: "김정성",
+  tags: [
+    "역사",
+    "조선",
+    "정조",
+    "영조",
+    "사도세자",
+    "노론",
+    "남인",
+    "붕당정치",
+    "무신란",
+    "영남",
+    "만인소",
+    "조선후기",
+    "왕권",
+    "정치사",
+    "한국사",
+    "당쟁",
+    "탕평책",
+  ],
+  media: [],
+  createdAt: "2026-07-06T10:20:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["history"],
+},
+{
+  id: "recent-issue-7",
+  title: "2026년 7월 초 주요 이슈",
+  content: `## 7월 초 이슈
+
+MSI 티원 탈락. versus G2 1:3
+
+형편없는 경기력. 현준현준. Broken Blade의 탑 영향력. 베인, 야스오, 초가스, 클레드.
+
+4경기 클레드 15/5/7. 페이커는 분전했지만.
+
+장마 시작. 비가 오락가락함. 날씨는 시원함. 전선 아래에는 태풍 바비가 올라오고 있음.
+
+리센느 Pretty Girl 멜론 1위.
+1위 기념 라이브. 단체 울음. 리브도 울었음.
+인기 게시글 리센느로 도배.
+
+MSI 한화 vs BLG 1:3 대패.
+그냥 체급차이.
+양대인의 독도킥.`,
+  author: "김정성",
+  tags: [
+    "최근이슈",
+    "2026년7월",
+    "MSI",
+    "리그오브레전드",
+    "T1",
+    "G2",
+    "한화생명",
+    "BLG",
+    "BrokenBlade",
+    "클레드",
+    "페이커",
+    "장마",
+    "태풍",
+    "바비",
+    "리센느",
+    "PrettyGirl",
+    "멜론",
+    "KPOP",
+    "e스포츠",
+    "날씨",
+  ],
+  media: [],
+  createdAt: "2026-07-06T10:30:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["recent-issues"],
+},
+{
+  id: "english-thought-1",
+  title: "말함의 즐거움",
+  content: `말함의 즐거움.
+
+말함의 쾌.
+
+아름다움.`,
+  author: "김정성",
+  tags: [
+    "영어",
+    "회화",
+    "말하기",
+    "Speaking",
+    "언어",
+    "표현",
+    "커뮤니케이션",
+    "즐거움",
+    "아름다움",
+    "학습",
+    "동기",
+  ],
+  media: [],
+  createdAt: "2026-07-06T10:40:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["in-english"],
+},
+{
+  id: "idea-13",
+  title: "맹인모상과 지식의 지도",
+  content: `맹인모상.
+
+앞다리를 만진 맹인의 묘사가 뒷다리를 만진 맹인의 묘사와 일치하더라도 그들이 코끼리를 완전히 이해한 것은 아니다.
+
+세상의 지도.
+
+지식의 지도.`,
+  author: "김정성",
+  tags: [
+    "아이디어",
+    "맹인모상",
+    "철학",
+    "인식론",
+    "지식",
+    "지식의지도",
+    "세계모델",
+    "모델링",
+    "사고",
+    "관점",
+    "이해",
+    "인지",
+    "추상화",
+    "학습",
+  ],
+  media: [],
+  createdAt: "2026-07-06T10:50:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["idea"],
+},
+{
+  id: "etymology-record-4",
+  title: "-ject와 jet의 어원",
+  content: `-ject 던지다.
+
+project.
+reject.
+eject.
+subject.
+
+-jet 뿜다.
+
+a jet of gas
+a jet of water`,
+  author: "김정성",
+  tags: [
+    "어원",
+    "영어",
+    "라틴어",
+    "etymology",
+    "젝트",
+    "project",
+    "reject",
+    "eject",
+    "subject",
+    "jet",
+    "어휘",
+    "영단어",
+    "영어학습",
+    "접두사",
+    "어근",
+  ],
+  media: [],
+  createdAt: "2026-07-06T11:00:00",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  collectionIds: ["etymology"],
+},
 ];
