@@ -276,6 +276,13 @@ export const collections: Collection[] = [
     parentId: 'delicious-world',
     createdAt: "2026-01-01",
   },
+  {
+    id: "memorable-dish",
+    name: "음식과 기억",
+    ownerId: "u1",
+    parentId: 'delicious-world',
+    createdAt: "2026-01-01",
+  },
   
   {
     id: "smell-and-memory",
