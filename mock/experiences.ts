@@ -5858,7 +5858,7 @@ Those who study the past, therefore, are not searching for a script to predict t
 
 {
   id: "food-thoughts-8",
-  title: "세상의 진미",
+  title: "코스트코",
   content: `세상의 진미
 
 코스트코.
@@ -5924,11 +5924,11 @@ Those who study the past, therefore, are not searching for a script to predict t
     "월드워Z",
     "좀비",
     "속도감",
-    "연출",
+    "연출",  
     "영화분석"
   ],
   author: "김정성",
-  collectionIds: ["movie"],
+  collectionIds: ["direction-ref"],
   createdAt: "2026-07-19",
   updatedAt: "2026-07-19",
   visibility: "public",
@@ -6131,6 +6131,440 @@ Variation
   collectionIds: ["knowledge-map"],
   createdAt: "2026-07-19",
   updatedAt: "2026-07-19",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  media: [],
+},
+{
+  id: "knowledge-map-9",
+  title: "케라틴과 무좀균",
+  content: `케라틴. 각질. 무좀균의 먹이
+
+이 케라틴의 '이황화결합'을 끊음.
+
+-S-S-
+(산화된 상태의 황)
+
+-HS SH-
+(환원되어 분리. 수소를 얻음. 전자를 얻음.)
+
+이것을 아미노산으로 분해, 흡수. 세포 형성 및 ATP
+
+아미노산, 시스테인의 SH기가 산화되면서 이황화결합
+
+단백질 구조가 접히면서 인접하게 되는 시스테인이 이황화결합.
+
+### 케라틴이 좋은 예입니다
+
+우리가 계속 이야기했던 케라틴은 시스테인이 매우 많아서 **이황화결합도 매우 많습니다.**
+
+그 결과
+
+- 머리카락
+- 손톱
+- 발톱
+- 피부의 각질층
+
+이 매우 질기고 쉽게 찢어지지 않습니다.
+
+반대로 무좀균은 먼저 이 **S–S 다리**를 환원하여 끊습니다.`,
+  tags: [
+    "지식",
+    "생물학",
+    "무좀",
+    "무좀균",
+    "사상균",
+    "케라틴",
+    "각질",
+    "단백질",
+    "아미노산",
+    "시스테인",
+    "SH기",
+    "이황화결합",
+    "산화",
+    "환원",
+    "전자",
+    "수소",
+    "ATP",
+    "세포",
+    "대사",
+    "단백질구조",
+    "3차구조",
+    "머리카락",
+    "손톱",
+    "발톱",
+    "피부",
+    "각질층",
+    "생화학"
+  ],
+  author: "김정성",
+  collectionIds: ["knowledge-map"],
+  createdAt: "2026-07-23",
+  updatedAt: "2026-07-23",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  media: [],
+},
+{
+  id: "reading-records-1",
+  title: "참을 수 없는 존재의 가벼움",
+  content: `'참을 수 없는 존재의 가벼움' 밀란 쿤데라. 결국 소설을 달 읽지 못하고 반납함.
+마음의 부채. 결국 해석과 공부로 매우기로 함.
+
+'프라하의 봄' 1968년 체코슬로바키아 에서 일어난 민주화, 자유화 운동.
+'~의 봄'을 상징하게 됨.
+당시 냉전. 미국은 베트남 전쟁. 체코는 소련과 가까움. 민감함. '동유럽은 소련 영역'이라는 암묵적 합의. '서방이 말하는 자유와 실제 군사 개입은 다른 문제'
+
+
+The Unbearable Lightness of Being
+참을 수 없는 것은 '가벼움'
+가벼움과 무거움에 대한.
+
+밀란 쿤데라. 체코 출신. 프랑스 망명
+반공산당 활동. '프라하의 봄' 참여.
+
+토마시. 가벼움. 성에 관해. 여성편력. 영혼과 육체는 각각. 사랑과 섹스는 별개
+테레자. 무거움. 사랑에 관해. 진지함.
+사비나. 가벼움. 자유로움.
+프란츠. 무거움.
+
+'키치'. 값싼 장식품. 감상적인 그림 ex) 눈이 지나치게 큰 아이 그림. 석양 아래에서 키스하는 연인. > 누구나 예쁘다, 감동적이다라고 느끼도록 만들어진 이미지.
+쿤데라의 정의 > 키치는 인간 존재에서 받아들이기 불편한 모든 것을 지워버리는 미적 이상이다.
+
+키치의 공산주의 정치로 확장한다면
+- 웃는 노동자
+- 행복한 농부
+- 밝게 웃는 아이
+- 모두가 하나 된 모습
+
+'**정치적 키치**'
+
+> SNS에서의 키치
+
+키치를
+단순한 미학이 아니라
+**진실을 감추는 정치적 장치**로 이해
+
+두 번째 눈물. 단순히 어떤 모습만을 보여주는 의도를 넘어 모두가 그렇게 생각해야 한다는 강제성에 대해. 이건 단순히 어떤 것을 이상적으로 보게하는 면과 어떤 것을 나쁘게 보게하는 면이 존재함 (이동진 영화평론가의 '호프'에 대한 평가. 사람들의 공격.)
+
+쿤데라에게 키치의 본질은 **긍정성 자체가 아니라 현실의 복잡성을 제거하는 것**
+
+
+니체의 영원 회귀로 시작되는 책.
+
+삶이 반복된다면 모든 행동에는 무거운 책임이.
+
+**쿤데라는 니체를 그대로 따르지 않습니다.** 오히려 니체의 개념을 하나의 "사고 실험(thought experiment)"으로 가져와 자신의 질문을 던집니다.
+
+
+쿤데라의 말. '한 번은 없는 것과 같다'
+-> 그래서 '가벼움'
+가벼움은 자유롭지만 동시에 공허함.
+반대로 무거움은 책임과 진지함.
+
+니체의 영원회귀. 네 운명을 사랑하라 (모든 슬픔, 고통을 포함해) 아모르파티.
+(키치는 반니체적)
+
+
+
+쿤데라 문학의 기조.
+- 인간은 모순적인 존재다.
+   - 이념은 인간을 단순화하지만 쿤데라는 훨씬 복잡한 존재라고 말함
+- 소설은 질문하는 예술이다. (작가는 판사가 아니다)
+- 아이러니
+- 키치. 현실은 항상 더 복잡하다.
+- 키치는 단순히 미학이 아닌 인간 정신의 '습관'. 현실을 견디기 어려우니 단순한 이야기로 바꾸는 것.
+
+쿤데라의 유명한 예를 다시 보면,
+첫 번째 눈물은
+
+> "아이들이 들판에서 뛰노는 모습이 정말 아름답다."
+
+입니다.
+
+이것 자체는 자연스러운 감정입니다. 쿤데라는 이 감정을 비판하지 않습니다.
+그런데 이어서 두 번째 눈물이 나옵니다.
+
+> "이 장면을 보고 모든 사람이 나처럼 감동해야 해."
+
+또는
+
+> "이 장면은 인간성의 아름다움을 증명해."
+
+여기서 감정은 더 이상 개인의 경험이 아닙니다. **하나의 보편적 진실이나 도덕적 명제로 바뀝니다.**
+
+
+
+아모르파티. 니체. 영원회귀. 이터널리턴. 영화 바얌섬. 아기가 우는 이유. 고생길을 보기 때문. '고생 길에 태어났다고, 울음을 터뜨리며 우는 것이 웃음거리유'`,
+  tags: [
+    "독서",
+    "독서기록",
+    "참을수없는존재의가벼움",
+    "TheUnbearableLightnessofBeing",
+    "밀란쿤데라",
+    "쿤데라",
+    "문학",
+    "소설",
+    "철학",
+    "니체",
+    "영원회귀",
+    "아모르파티",
+    "사고실험",
+    "키치",
+    "정치적키치",
+    "두번째눈물",
+    "프라하의봄",
+    "체코슬로바키아",
+    "체코",
+    "프랑스",
+    "냉전",
+    "소련",
+    "미국",
+    "베트남전쟁",
+    "민주화",
+    "자유화",
+    "토마시",
+    "테레자",
+    "사비나",
+    "프란츠",
+    "이동진",
+    "호프",
+    "SNS",
+    "인간",
+    "이념",
+    "예술",
+    "아이러니",
+    "존재",
+    "가벼움",
+    "무거움",
+    "바얌섬"
+  ],
+  author: "김정성",
+  collectionIds: ["reading-records"],
+  createdAt: "2026-07-23",
+  updatedAt: "2026-07-23",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  media: [],
+},
+{
+  id: "idea-1",
+  title: "느낌의 정당성",
+  content: `내가 좋았다는 느낌 위에 고고히 서있지 못하고. 
+항상 옆사람에게 붙들고 뭉처 있어야 하는 유약함.
+자신의 느낌마저 다른 사람에게 그 정당성을 허럭받아야 하는`,
+  tags: [
+    "생각",
+    "아이디어",
+    "철학",
+    "심리",
+    "감정",
+    "느낌",
+    "자아",
+    "자아정체성",
+    "주체성",
+    "자기확신",
+    "자존감",
+    "인정욕구",
+    "승인욕구",
+    "사회심리",
+    "타인의시선",
+    "여론",
+    "정당성",
+    "의존",
+    "독립성",
+    "에세이",
+    "사유"
+  ],
+  author: "김정성",
+  collectionIds: ["idea"],
+  createdAt: "2026-07-23",
+  updatedAt: "2026-07-23",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  media: [],
+},
+{
+  id: "food-thoughts-11",
+  title: "산미의 실패",
+  content: `산미의 실패
+
+과도한 산미가 음식의 풍미를 잡아먹는 경우.
+묵은지 김치찌개. 편의점 냉채 닭가슴살 김밥.
+라면과 함께 먹는 과하게 익은 김치.`,
+  tags: [
+    "미식",
+    "음식",
+    "맛",
+    "풍미",
+    "산미",
+    "신맛",
+    "맛의균형",
+    "조화",
+    "요리",
+    "식문화",
+    "김치",
+    "묵은지",
+    "김치찌개",
+    "라면",
+    "김밥",
+    "편의점",
+    "편의점음식",
+    "냉채",
+    "닭가슴살",
+    "식사",
+    "푸드노트",
+    "미식기록"
+  ],
+  author: "김정성",
+  collectionIds: ["food-thoughts"],
+  createdAt: "2026-07-23",
+  updatedAt: "2026-07-23",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  media: [],
+},
+{
+  id: "in-english-3",
+  title: "K-Culture as Strategy",
+  content: `> Koreans have a tendency to seek a head-on contest. We want to win fair and square by beating our rivals at what they do best. But is that really how we're going to beat America?
+> 
+> In Silicon Valley, there are only two ways to earn respect: outperform the competition, or become so valuable that others owe you something. But if you fight on their home turf, by their rules, you're already at a disadvantage. To win, we need to play our own game with our own strengths.
+> 
+> That strength is K-culture. In an age when AI can replicate almost everything, the things that become truly valuable are precisely those it cannot easily copy—taste, aesthetics, brands, and culture. Buldak noodles and K-beauty have already proven that.
+> 
+> K-culture is our _Inchon Landing_. Once culture secures a beachhead, it becomes a bridge for everything else—software, deep tech, and innovation. One day, a Korean will sit at the heart of the PayPal Mafia, and it will be because culture opened the door first.
+
+A few notes on the interpretation:
+
+- **"정면승부"** becomes _head-on contest_ or _fight on their terms_, emphasizing the cultural tendency toward proving oneself directly.
+- **"상대가 나한테 빚지게 만들거나"** is rendered as _become so valuable that others owe you something_, capturing the idea of creating leverage and indispensability.
+- **"인천상륙작전"** is translated as _Inchon Landing_ because it's a historical reference familiar to many English readers. The metaphor of establishing a **beachhead** naturally follows in English military terminology.
+- The last sentence is slightly expanded ("because culture opened the door first") to make the implied logic explicit for English readers.`,
+  tags: [
+    "영어",
+    "영작",
+    "에세이",
+    "번역",
+    "영문",
+    "K컬처",
+    "한류",
+    "문화",
+    "브랜드",
+    "미학",
+    "취향",
+    "AI",
+    "인공지능",
+    "실리콘밸리",
+    "미국",
+    "경쟁",
+    "전략",
+    "차별화",
+    "비교우위",
+    "소프트파워",
+    "혁신",
+    "딥테크",
+    "소프트웨어",
+    "K뷰티",
+    "불닭",
+    "불닭볶음면",
+    "PayPalMafia",
+    "페이팔마피아",
+    "인천상륙작전",
+    "InchonLanding",
+    "Beachhead",
+    "문화전략",
+    "국가경쟁력",
+    "브랜딩",
+    "SiliconValley",
+    "EnglishWriting"
+  ],
+  author: "김정성",
+  collectionIds: ["in-english"],
+  createdAt: "2026-07-23",
+  updatedAt: "2026-07-23",
+  visibility: "public",
+  status: "published",
+  source: "manual",
+  media: [],
+},
+{
+  id: "knowledge-map-10",
+  title: "LED 등 원리",
+  content: `LED 등 원리
+
+
+220V 교류 
+↓ 
+드라이버 (직류·정전류 생성) 
+↓ 
+LED 칩 
+↓ 
+전자 공급 
+↓ 
+전자 + 정공 재결합 
+↓ 
+광자 생성 
+↓ 
+파란빛 
+↓ 
+형광체 
+↓ 
+흰빛
+
+
+높은 에너지의 전자가 정공으로 들어가면서 에너지의 차이가 빛
+
+전원이 전자에게 에너지를 공급해서, LED의 N형에서는 전도대(conduction band)에 있는 높은 에너지 상태의 전자가 계속 주입.
+
+P형의 정공과 재결합한 전자는 더 이상 높은 에너지의 자유전자가 아니므로, 다시 전류에 기여하려면 외부 전원(배터리, 드라이버)이 다시 에너지를 공급해야 함.
+> 전자가 너무 빨리 지나가면 정공과 재결합할 확률이 낮아질 수 있다.
+
+LED는 전류의 흐름을 '약간 불편하게' 만들어서, 전자의 에너지를 의도한 방식으로 빛으로 변환하는 장치.`,
+  tags: [
+    "지식",
+    "과학",
+    "물리학",
+    "전자공학",
+    "LED",
+    "조명",
+    "빛",
+    "광자",
+    "반도체",
+    "반도체소자",
+    "PN접합",
+    "N형반도체",
+    "P형반도체",
+    "전자",
+    "정공",
+    "전자정공재결합",
+    "에너지밴드",
+    "전도대",
+    "conductionband",
+    "전류",
+    "전압",
+    "교류",
+    "220V",
+    "직류",
+    "정전류",
+    "드라이버",
+    "형광체",
+    "백색LED",
+    "파란빛",
+    "전기에너지",
+    "빛에너지",
+    "에너지변환",
+    "반도체원리"
+  ],
+  author: "김정성",
+  collectionIds: ["knowledge-map"],
+  createdAt: "2026-07-23",
+  updatedAt: "2026-07-23",
   visibility: "public",
   status: "published",
   source: "manual",
